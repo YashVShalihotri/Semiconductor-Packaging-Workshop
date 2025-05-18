@@ -166,14 +166,17 @@ Fan-Out WLP (FOWLP) – Interconnects extend beyond the dies for more I/Os.
 ## 3.1 Introduction And Getting Started With ANSYS Electronics Desktop
 In this, we will be using the  Icepack of the Ansys Electronics Desktop Software to generate the temperature graph for the Flip chip BGA package.
  1. Insert the Icepack Design after Launching the Ansys Software.
+## 3.2 Setting Up A Flip-Chip BGA Package
  2. Go to: Icepak > Toolkit > Geometry > Packages > Flipchip_BGA to get the Flip-chip BGA package.
  3. Set parameters:
          <br>
          `xLength:` 15 mm <br>
          `yLength:` 15 mm <br>
          `Package Thickness:` 3 mm. As we will be working on this size
+## 3.3 Material Definitions And Thermal Power Sources
  4. Navigate to: `Project Manager > Thermal` and Set Power to `1W` and apply
  5. Select `Flipchip-BGA1_substrate` from Solids and Right-click: Assign Thermal > Source to assign it. Set the condition to Ambient Temperature.
+## 3.4 Meshing And Running The Thermal Analysis
  6. Assign temperature monitor points to: Substrate, Die, and Underfill, as these three will generate the temperature gradient for the package.
  7. Go to: Mesh > Generate Mesh
  8. Click Validate from the toolbar
@@ -181,6 +184,7 @@ In this, we will be using the  Icepack of the Ansys Electronics Desktop Software
 <br>Go to: Plot Field > Temperature and Configure plot settings:<br>
 `Enable: Specify Name, Folder, Plot Surface Only`<br>
 `Enable: Gaussian Surface Smoothing`
-
+## 3.5 Viewing Results and Exploring Other Package Types.
+![14](./Packaging/14.png)
 
 
