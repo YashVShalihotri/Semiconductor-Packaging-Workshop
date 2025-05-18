@@ -33,31 +33,40 @@ Notes summarized for the Semiconductor workshop attended between 9th and 18th Ma
 
 # 1. Packaging Evolution: From Basics to 3D Integration
 ## 1.1 Introduction to Semiconductor Packaging and Industry Overview
-Semiconductor Packaging is needed to package the dies that come out of the wafer in a controlled environment of a clean room to be used in the real world.
-Packaging is necessary to protect them from the environment and connect them to the real world.
-Packaging helps in the following ways-
-1. Protect the die from the environment and give it mechanical support (moisture, physical damage)
-2. Electrical connections to the outer world.
-3. Heat dissipation
-   
+        Semiconductor Packaging is needed to package the dies that come out of the wafer in a controlled environment of a clean room to be used in the real world.
+        Packaging is necessary to protect them from the environment and connect them to the real world.
+        Packaging helps in the following ways-
+        1. Protect the die from the environment and give it mechanical support (moisture, physical damage)
+        2. Electrical connections to the outer world.
+        3. Heat dissipation
+           
 ![1](./Packaging/1.png)
 
 ### Package and Testing Industry
-<br>
 Companies are working in various sectors of the semiconductor industry.
-1. **Fabless**: That only designs the chip.
-2. **Foundry**: That takes the design and fabricates dies on the wafer, but does not design the chip
-3. **IDM(Integrated Device Manufacturer)**: That does both designing and fabrication of the chip
-4. **OSAT(Outsource Semiconductor Assembly and Test)**: That takes the dies from the wafer and packages them; they do not design or fabricate chips. 
+        1. **Fabless**: That only designs the chip.
+        2. **Foundry**: That takes the design and fabricates dies on the wafer, but does not design the chip
+        3. **IDM(Integrated Device Manufacturer)**: That does both designing and fabrication of the chip
+        4. **OSAT(Outsource Semiconductor Assembly and Test)**: That takes the dies from the wafer and packages them; they do not design or fabricate chips. 
 ![2](./Packaging/2.png)
 
 ## 1.2 Understanding Package Requirements and Foundational Package Types
 ### How to choose a package
-
 Based on the listed requirements, packages are chosen for the packaging of the die.
+<br>
 ![3](./Packaging/3.png)
+### Typical Thermal Package Structure
+This consists of die, mold compound, carrier, and System board(PCB).
+Broadly speaking, there are two types of mounting technology on the System board
+        1. Through-hole mount technology: Pins are inserted in the system board.
+        2. Surface mount technology: Component leads are soldered to the surface-mounted pads instead of insertion.
+![4](./Packaging/4.png)
 
-
+## 1.3 Evolving Package Architectures from Single-chip to Multi-chip modules
+## Anatomy of Package
+        A typical package consists of 
+        1. Silicon die
+        2.
 
 
 
