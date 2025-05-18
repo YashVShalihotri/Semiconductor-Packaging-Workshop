@@ -1,4 +1,4 @@
-![Screenshot (61)](https://github.com/user-attachments/assets/3dfdfc0e-4d58-43ed-a19d-f10b9c822496)# Semiconductor Packaging workshop
+![Screenshot (62)](https://github.com/user-attachments/assets/c18af978-08d3-4323-97da-bd17340297d2)# Semiconductor Packaging workshop
 Notes summarized for the Semiconductor workshop attended between 9th and 18th May 2025
 
 ## 1.	Packaging Evolution: From Basics to 3D Integration
@@ -210,6 +210,32 @@ This section explains the tests that packages go through.
 5. Packages are tested at elevated temperature and cold temperature for their performance.
 ![19](./Packaging/19.png)
 ### Summary
+Automatic testing Equipment is used to test the packages, and after all these tests, the packages are shipped to the outside world.
 ![20](./Packaging/20.png)
 
-
+# 5 Package Design and Modeling: Building a Semiconductor Package from Scratch
+In this module, we learn how to create a package from Scratch
+![21](./Packaging/21.png)
+## 5.1 Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop
+1. Open the Ansys Q3D.
+2. This helps in creating your very own Packaging model.
+## 5.2 Creating the Die and Substrate in AEDT
+3. Create a rectangle with `x,y,z coordinate` as `0,0,0` and `xSize,ySize` as `3mm` each.
+4. For thickness, we go to `modeler->Surface->Thicken Sheet` for `0.2mm.`
+5. This makes our Die
+![Die](./Packaging/Die.png)
+6. After this, we create another rectangle following the same procedure with `x,y,z` as `-1,-1,-0.1` and `xsize,ysize` as `5mm` each.
+7. Assign material for Die as Silicon and for Substrate as FR4_Epoxy.
+![Substrate](./Packaging/Substrate.png)
+## 5.3 Adding Die Attach Material and Bond Pads
+8. Following the same procedure, make the Die attach material on the surface of the substrate that comes between the Substrate and the Die, `Thickness` is `-0.1`.
+![DieAttach](./Packaging/DieAttach.png)
+9. Create bond pads on the Substrate
+![Substratepad](./Packaging/Substratepad.png)
+## 5.4 Wire Bond Creation and Material Assignment
+10. Select Wirebond from the menu and place it on the Die pad, and then take it to the Substrate pad.
+![Wirebond](./Packaging/Wirebond.png)
+## 5.5 Applying Mold Compound and Finalizing the Package Model
+11. Since the die is 0.2mm in height and the die attach is 0.1mm and 0.4mm for wirebond, the encapsulation molding material height is more than 0.7mm from the surface of the Substrate.
+![mold](./Packaging/mold.png)
+# 6 Conclusion
