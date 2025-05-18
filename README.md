@@ -2,11 +2,11 @@
 Notes summarized for the Semiconductor workshop attended between 9th and 18th May 2025
 
 # 1.	Packaging Evolution: From Basics to 3D Integration
-    	-Introduction to Semiconductor Packaging and Industry Overview
-    	-Understanding Package Requirements and Foundational Package Types
-    	-Evolving Package Architectures from Single-chip to Multi-chip modules
-    	-Interposers, Redistribution layer,s and 3D Packaging Approaches
-    	-Comparative Analysis and Selecting the Right Packaging Solution
+    	-[Introduction to Semiconductor Packaging and Industry Overview]
+    	-[Understanding Package Requirements and Foundational Package Types]
+    	-[Evolving Package Architectures from Single-chip to Multi-chip modules]
+    	-[Interposers, Redistribution layer,s and 3D Packaging Approaches]
+    	-[Comparative Analysis and Selecting the Right Packaging Solution]
 # 2.	From Wafer to Package: Assembly and Manufacturing Essentials
     	Setting the Stage: Supply Chain and Facilities
     	Wafer pre-preparation: Grinding and Dicing
