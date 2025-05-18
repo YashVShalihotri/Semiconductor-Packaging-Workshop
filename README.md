@@ -149,3 +149,14 @@ Major difference between OSAT and ATMP is that OSAT does not produce wafers they
 8. Ball mounting is done on the Substrate.
 9. After ball mounting and reflow, we get a Flip chip bonded Package.
 ![12](./Packaging/12.png)
+
+## 2.5 Wafer Level Packaging And Conclusion
+Wafer-Level Packaging is a technique where the whole packaging process is done at the wafer level.
+This helps in reducing the size of the package, faster speed, and reducing Form Factor.
+Good dies are picked from the wafer and placed for the reconstitution process, molded to get a reconstituted wafer after carrier release.
+### Types of Wafer-Level Packaging
+Fan-In WLP – Interconnects remain within the die footprint
+Fan-Out WLP (FOWLP) – Interconnects extend beyond the dies for more I/Os.
+### RDL Preparation
+1. RDL is combination of dielectric and metal which is patterned again and again for getting the desired number of layers for interconnections.
+![13](./Packaging/13.png)
