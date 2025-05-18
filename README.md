@@ -1,4 +1,4 @@
-![Screenshot (62)](https://github.com/user-attachments/assets/c18af978-08d3-4323-97da-bd17340297d2)# Semiconductor Packaging workshop
+# Semiconductor Packaging workshop
 Notes summarized for the Semiconductor workshop attended between 9th and 18th May 2025
 
 ## 1.	Packaging Evolution: From Basics to 3D Integration
