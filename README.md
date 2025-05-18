@@ -1,6 +1,5 @@
-![Screenshot (62)](https://github.com/user-attachments/assets/c18af978-08d3-4323-97da-bd17340297d2)# Semiconductor Packaging workshop
+# Semiconductor Packaging workshop
 Notes summarized for the Semiconductor workshop attended between 9th and 18th May 2025
-
 ## 1.	Packaging Evolution: From Basics to 3D Integration
         1. Introduction to Semiconductor Packaging and Industry Overview
         2. Understanding Package Requirements and Foundational Package Types
@@ -239,3 +238,4 @@ In this module, we learn how to create a package from Scratch
 11. Since the die is 0.2mm in height and the die attach is 0.1mm and 0.4mm for wirebond, the encapsulation molding material height is more than 0.7mm from the surface of the Substrate.
 ![mold](./Packaging/mold.png)
 # 6 Conclusion
+In conclusion, semiconductor packaging plays a crucial role in protecting and enhancing the performance of semiconductor devices. As technology advances, packaging solutions continue to evolve, focusing on improving efficiency, miniaturization, and reliability. With innovations like advanced materials, 3D packaging, and chiplets, the future of semiconductor packaging promises even greater functionality and integration, supporting the demands of modern electronics and computing.
