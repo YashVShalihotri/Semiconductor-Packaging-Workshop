@@ -43,6 +43,7 @@ Packaging helps in the following ways-
 ![1](./Packaging/1.png)
 
 **Package and Testing Industry**
+<br>
 Companies are working in various sectors of the semiconductor industry.
 1. **Fabless**: That only designs the chip.
 2. **Foundry**: That takes the design and fabricates dies on the wafer, but does not design the chip
@@ -52,6 +53,7 @@ Companies are working in various sectors of the semiconductor industry.
 
 ## 1.2 Understanding Package Requirements and Foundational Package Types
 **How to choose a package**
+<br>
 Based on the listed requirements, packages are chosen for the packaging of the die.
 ![3](./Packaging/3.png)
 
