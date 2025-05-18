@@ -30,7 +30,6 @@ Notes summarized for the Semiconductor workshop attended between 9th and 18th Ma
     	5. Applying Mold Compound and Finalizing the Package Model
 ## 6.	Conclusion: Semiconductor Packaging
 
-# Packaging Evolution: From Basics to 3D Integration
 
 ## 1. Packaging Evolution: From Basics to 3D Integration
 ### 1.1 Introduction to Semiconductor Packaging and Industry Overview
