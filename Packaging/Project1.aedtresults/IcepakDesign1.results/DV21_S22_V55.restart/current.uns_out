@@ -1,0 +1,451 @@
+Transcript Start Time:  00:02:07, 14 May 2025 India Standard Time 
+Current Directory: "C:\temp\icepak_LAPTOP-DM091TRQ_18764.pjt"
+
+Build Time: May  2 2024 12:39:26 EST  Build Id: 184 Revision: 1f33ee7825  Branch: releases/release-24.2 
+Executable Path: D:/Ansys Student/v242/Win64/fluent/ntbin/win64/fluent.exe
+
+------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                  
+------------------------------------------------------------------------------------------
+n0*   LAPTOP-DM091TRQ  1/12  Windows-x64  12528  12th Gen Intel(R) Core(TM) i5-12450H    
+host  LAPTOP-DM091TRQ        Windows-x64  12456  12th Gen Intel(R) Core(TM) i5-12450H    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+------------------------------------------------------------------------------------------
+
+Cortex Process ID: 21304 
+License Server Path: () 
+
+> (define t0)
+t0
+
+
+> (set! t0 (cpu-time))
+t0
+
+
+> (define wt0)
+wt0
+
+
+> (set! wt0 (time))
+wt0
+
+
+> (if (err-protect (%enable-dynamic-mesh-node-ids #t)) (pp "Ok") (begin (close-output-port (open-output-file "Setup1.uns_out")) (close-output-port (open-output-file "Setup1.uns_err"))))
+"Ok"
+
+
+> (if (err-protect (ti-menu-load-string "rc Setup1.cas")) (pp "Ok") (begin (close-output-port (open-output-file "Setup1.uns_out")) (close-output-port (open-output-file "Setup1.cas_err"))))
+rc Setup1.cas
+LAPTOP-DM091TRQ is already loaded (25.5582).                       Process affinity not being set.
+
+Reading "Setup1.cas"...
+
+Buffering for file scan...
+
+Icepak
+
+
+   39305 nodes.
+    2208 mixed cells, zone  1.
+    1156 mixed cells, zone  3.
+    2312 mixed cells, zone  4.
+    1472 mixed cells, zone  5.
+   24894 mixed cells, zone  6.
+    4232 mixed interior faces, zone  7.
+    2244 mixed interior faces, zone  9.
+    5644 mixed interior faces, zone 10.
+    2184 mixed interior faces, zone 11.
+   69334 mixed interior faces, zone 12.
+    2208 mixed wall faces, zone 13.
+    2208 mixed wall faces, zone 14.
+    2208 shadow face pairs. 
+    2020 mixed wall faces, zone 15.
+    2020 mixed wall faces, zone 16.
+    2020 shadow face pairs. 
+     136 mixed wall faces, zone 17.
+     136 mixed wall faces, zone 18.
+     136 shadow face pairs. 
+    1156 mixed wall faces, zone 19.
+    1156 mixed wall faces, zone 20.
+    1156 shadow face pairs. 
+     900 mixed wall faces, zone 21.
+     900 mixed wall faces, zone 22.
+     900 shadow face pairs. 
+     272 mixed wall faces, zone 23.
+     272 mixed wall faces, zone 24.
+     272 shadow face pairs. 
+    1156 mixed wall faces, zone 25.
+    1156 mixed wall faces, zone 26.
+    1156 shadow face pairs. 
+     420 mixed wall faces, zone 27.
+     420 mixed wall faces, zone 28.
+     420 shadow face pairs. 
+     256 mixed wall faces, zone 29.
+     256 mixed wall faces, zone 30.
+     256 shadow face pairs. 
+    3612 mixed wall faces, zone 31.
+    3612 mixed wall faces, zone 32.
+    3612 shadow face pairs. 
+    7462 mixed wall faces, zone 33.
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+     zones,
+	region_side
+	flipchip_bga1_ball_10_10_side_shadow
+	flipchip_bga1_ball_10_10_side
+	flipchip_bga1_ball_side_1_shadow
+	flipchip_bga1_ball_side_1
+	flipchip_bga1_ball_side_shadow
+	flipchip_bga1_ball_side
+	flipchip_bga1_die_side_shadow
+	flipchip_bga1_die_side
+	flipchip_bga1_via_side_1_shadow
+	flipchip_bga1_via_side_1
+	flipchip_bga1_via_side_shadow
+	flipchip_bga1_via_side
+	flipchip_bga1_substrate_side_shadow
+	flipchip_bga1_substrate_side
+	flipchip_bga1_trace1_side_1_shadow
+	flipchip_bga1_trace1_side_1
+	flipchip_bga1_trace1_side_shadow
+	flipchip_bga1_trace1_side
+	flipchip_bga1_die_source_side_shadow
+	flipchip_bga1_die_source_side
+	flipchip_bga1_ball_solid
+	flipchip_bga1_via_solid
+	flipchip_bga1_substrate_solid
+	flipchip_bga1_die_solid
+	region_fluid
+	interior-12
+	interior-11
+	interior-10
+	interior-9
+	interior-7
+     parallel,
+
+Note: 3d, pressure-based, laminar case read into
+      3d, double precision, pressure-based, laminar solver.
+
+
+
+Done.
+"Ok"
+
+
+> (ti-menu-load-string "file hdf-files? no")
+file hdf-files? no#t
+
+
+> (load "D:\Ansys Student\v242\Win64/icepak/lib/icepak/icepak.scm")
+Loading "D:\Ansys Student\v242\Win64/icepak/lib/icepak/icepak.scm"
+Done.
+#f
+
+
+> (begin (define g_c (car (%grid-check))) (if g_c (begin (define port (open-output-file "GRID_FAIL")) (exit))))
+
+ Domain Extents:
+   x-coordinate: min (m) = -7.500000e-03, max (m) = 2.250000e-02
+   y-coordinate: min (m) = -7.500000e-03, max (m) = 2.250000e-02
+   z-coordinate: min (m) = -7.500000e-04, max (m) = 2.250000e-03
+ Volume statistics:
+   minimum volume (m3): 7.642957e-13
+   maximum volume (m3): 2.331565e-10
+     total volume (m3): 2.700000e-06
+ Face area statistics:
+   minimum face area (m2): 1.368745e-08
+   maximum face area (m2): 4.054145e-07
+ Checking mesh............................
+Done.
+#f
+
+
+> (load "D:\Ansys Student\v242\Win64/icepak/lib/icepak/benchmark.scm")
+Loading "D:\Ansys Student\v242\Win64/icepak/lib/icepak/benchmark.scm"
+Done.
+#f
+
+
+> (if (err-protect (ti-menu-load-string "def mo rad s2s? no")) (pp "Ok") (begin (close-output-port (open-output-file "Setup1.uns_out")) (close-output-port (open-output-file "Setup1.uns_err"))))
+def mo rad s2s? no"Ok"
+
+
+> (if (err-protect (ti-menu-load-string "s i i")) (pp "Ok") (begin (close-output-port (open-output-file "Setup1.uns_out")) (close-output-port (open-output-file "Setup1.init_err"))))
+s i i"Ok"
+
+
+> (set! suffix-expand-filename (lambda (fn suffix) fn))
+suffix-expand-filename
+
+
+> (if (err-protect (%set-void-dynamic-mesh-node-ids)) (pp "Ok") (begin (close-output-port (open-output-file "Setup1.uns_out")) (close-output-port (open-output-file "Setup1.uns_err"))))
+"Ok"
+
+
+> wc Setup1.nc_cas
+
+Writing "Setup1.nc_cas"...
+
+    2208 hexahedral cells, zone  1, binary.
+    1156 hexahedral cells, zone  3, binary.
+    2312 hexahedral cells, zone  4, binary.
+    1472 mixed cells, zone  5, binary.
+   24894 mixed cells, zone  6, binary.
+    4232 quadrilateral interior faces, zone  7, binary.
+    2244 quadrilateral interior faces, zone  9, binary.
+    5644 quadrilateral interior faces, zone 10, binary.
+    2184 mixed interior faces, zone 11, binary.
+   69334 mixed interior faces, zone 12, binary.
+    2208 quadrilateral wall faces, zone 13, binary.
+    2208 quadrilateral wall faces, zone 14, binary.
+    2020 quadrilateral wall faces, zone 15, binary.
+    2020 quadrilateral wall faces, zone 16, binary.
+     136 quadrilateral wall faces, zone 17, binary.
+     136 quadrilateral wall faces, zone 18, binary.
+    1156 quadrilateral wall faces, zone 19, binary.
+    1156 quadrilateral wall faces, zone 20, binary.
+     900 quadrilateral wall faces, zone 21, binary.
+     900 quadrilateral wall faces, zone 22, binary.
+     272 quadrilateral wall faces, zone 23, binary.
+     272 quadrilateral wall faces, zone 24, binary.
+    1156 quadrilateral wall faces, zone 25, binary.
+    1156 quadrilateral wall faces, zone 26, binary.
+     420 quadrilateral wall faces, zone 27, binary.
+     420 quadrilateral wall faces, zone 28, binary.
+     256 quadrilateral wall faces, zone 29, binary.
+     256 quadrilateral wall faces, zone 30, binary.
+    3612 mixed wall faces, zone 31, binary.
+    3612 mixed wall faces, zone 32, binary.
+    7462 mixed wall faces, zone 33, binary.
+    2208 shadow face pairs, binary.
+    2020 shadow face pairs, binary.
+     136 shadow face pairs, binary.
+    1156 shadow face pairs, binary.
+     900 shadow face pairs, binary.
+     272 shadow face pairs, binary.
+    1156 shadow face pairs, binary.
+     420 shadow face pairs, binary.
+     256 shadow face pairs, binary.
+    3612 shadow face pairs, binary.
+   39305 nodes, binary.
+   39305 node flags, binary.
+   39305 node sids, binary.
+Done.
+
+
+> (ti-menu-load-string "file hdf-files? yes")
+file hdf-files? yesFast-loading "D:\Ansys Student\v242\Win64\fluent\fluent24.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+#t
+
+
+> (if (err-protect (%write-nodemap "Setup1.nodemap")) (pp "Ok") (begin (close-output-port (open-output-file "Setup1.uns_out")) (close-output-port (open-output-file "Setup1.uns_err"))))
+999999: Wrote nodemap for 39305 nodes
+0: Using dynamic mesh id
+"Ok"
+
+
+> (load "D:\Ansys Student\v242\Win64/icepak/lib/icepak/monitor-create.scm")
+Loading "D:\Ansys Student\v242\Win64/icepak/lib/icepak/monitor-create.scm"
+Done.
+#f
+
+
+> (read-monitors "Setup1.pmon" "Setup1")
+(monitor-1 (unsteady? . #f) (avg-over . 1) (write? . #t) (print? . #f) (plot? . #f) (freq . 1) (unit) (file . "Setup1.1.Flipchip_BGA1_substrate.out") (surfaces 1) (sub-function . "Static Temperature") (domain . "mixture") (function . "Temperature...") (x-axis . "Iteration") (window . -1) (report . "Vertex Average"))
+(monitor-2 (unsteady? . #f) (avg-over . 1) (write? . #t) (print? . #f) (plot? . #f) (freq . 1) (unit) (file . "Setup1.2.Flipchip_BGA1_die.out") (surfaces 2) (sub-function . "Static Temperature") (domain . "mixture") (function . "Temperature...") (x-axis . "Iteration") (window . -2) (report . "Vertex Average"))
+(monitor-3 (unsteady? . #f) (avg-over . 1) (write? . #t) (print? . #f) (plot? . #f) (freq . 1) (unit) (file . "Setup1.3.Flipchip_BGA1_die_underfill.out") (surfaces 3) (sub-function . "Static Temperature") (domain . "mixture") (function . "Temperature...") (x-axis . "Iteration") (window . -3) (report . "Vertex Average"))
+
+
+> (retain-monitor-usage #f)
+Information: Converting monitor monitor-3 to report definition.
+Information: Converting monitor monitor-2 to report definition.
+Information: Converting monitor monitor-1 to report definition.
+*monset->plot-set-window-no-graphics*
+
+
+> (define (set-mon-f f) (for-each (lambda (m) (set-cdr! (assq 'freq m) f)) (rpgetvar 'monitor/surfaces)))
+set-mon-f
+
+
+> (set-mon-f 1)
+
+
+> (define ps-port)
+ps-port
+
+
+> (set! ps-port (open-file "init_proc_stats" "wl"))
+ps-port
+
+
+> (set-echo-ports! *console-output-port* (cons ps-port (echo-ports *console-output-port*)))
+(#[port 0x24a038e0] #[port 0x249cd1c0] #[port 0xd504f00])
+
+
+> (proc-stats)
+
+----------------------------------------------
+       | Virtual Mem Usage (GB)|            
+ID     | Current    Peak       | Page Faults
+----------------------------------------------
+host   | 1.54482    1.57938    | 4.232e+05  
+n0     | 1.1026     1.10556    | 3.19e+05   
+----------------------------------------------
+Total  | 2.64743    2.68494    | 7.422e+05  
+----------------------------------------------
+
+-----------------------------------------------------------------
+                    | Virtual Mem Usage (GB)    | System Mem (GB)          
+Hostname            | Current      Peak         |                          
+-----------------------------------------------------------------
+LAPTOP-DM091TRQ     | 2.64743      2.68494      | 15.7305      
+-----------------------------------------------------------------
+Total               | 2.64743      2.68494      |            
+-----------------------------------------------------------------
+()
+
+
+> (set-echo-ports! *console-output-port* (delete ps-port (echo-ports *console-output-port*)))
+(#[port 0x249cd1c0] #[port 0xd504f00])
+
+
+> (flush-output-port ps-port)
+#f
+
+
+> (close-output-port ps-port)
+#f
+
+
+> (define t1)
+t1
+
+
+> (set! t1 (cpu-time))
+t1
+
+
+> (define wt1)
+wt1
+
+
+> (set! wt1 (time))
+wt1
+
+
+> (format "Solver Initialization: cpu=~a real=~a~%" (- t1 t0) (- wt1 wt0))
+Solver Initialization: cpu=14.527386 real=15
+
+
+> (if (err-protect (benchmark-aedt '(icepak-iterate 100 "Setup1" "Setup1.res" 100 1 1))) (pp "Ok") (begin (close-output-port (open-output-file "Setup1.uns_out")) (close-output-port (open-output-file "Setup1.soln_err"))))
+
+  iter  continuity  x-velocity  y-velocity  z-velocity      energy     time/iter
+     1  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  5.2211e-06  0:00:00   99
+     2  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  3.1492e-07  0:01:38   98
+     3  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  2.4734e-08  0:01:18   97
+
+Writing "Setup1.resd"...
+
+Writing elements...
+Wrote 96 triangles.
+Wrote 31638 quads.
+Writing face results...
+Wrote Heat Flow Rate on 31734 faces. 
+Wrote Heat Flux on 31734 faces. 
+Wrote Temperature on 31734 faces. 
+Wrote Mass Flux on 31734 faces. 
+Wrote X Velocity on 31734 faces. 
+Wrote Y Velocity on 31734 faces. 
+Wrote Z Velocity on 31734 faces. 
+Wrote Pressure on 31734 faces. 
+
+Writing node results...
+Writing ICEM domain scalar "Pressure"
+Wrote Pressure on 39305 nodes.
+Writing ICEM domain scalar "Temperature"
+Wrote Temperature on 39305 nodes.
+Writing ICEM domain scalar "X Velocity"
+Wrote X Velocity on 39305 nodes.
+Writing ICEM domain scalar "Y Velocity"
+Wrote Y Velocity on 39305 nodes.
+Writing ICEM domain scalar "Z Velocity"
+Wrote Z Velocity on 39305 nodes.
+0: Using dynamic mesh id
+Done.
+
+
+Writing to LAPTOP-DM091TRQ:"C:\temp\icepak_LAPTOP-DM091TRQ_18764.pjt\Setup1.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.
+Writing data to Setup1.dat ...
+	x-coord
+	y-coord
+	z-coord
+	pressure
+	x-velocity
+	y-velocity
+	z-velocity
+	temperature
+Done.
+Solve: cpu=2.453125 real=2
+"Ok"
+
+
+> (define ps-port)
+ps-port
+
+
+> (set! ps-port (open-file "solve_proc_stats" "wl"))
+ps-port
+
+
+> (set-echo-ports! *console-output-port* (cons ps-port (echo-ports *console-output-port*)))
+(#[port 0x255bbf60] #[port 0x249cd1c0] #[port 0xd504f00])
+
+
+> (proc-stats)
+
+----------------------------------------------
+       | Virtual Mem Usage (GB)|            
+ID     | Current    Peak       | Page Faults
+----------------------------------------------
+host   | 1.54607    1.57938    | 4.236e+05  
+n0     | 1.13212    1.13788    | 3.312e+05  
+----------------------------------------------
+Total  | 2.67819    2.71726    | 7.548e+05  
+----------------------------------------------
+
+-----------------------------------------------------------------
+                    | Virtual Mem Usage (GB)    | System Mem (GB)          
+Hostname            | Current      Peak         |                          
+-----------------------------------------------------------------
+LAPTOP-DM091TRQ     | 2.67819      2.71726      | 15.7305      
+-----------------------------------------------------------------
+Total               | 2.67819      2.71726      |            
+-----------------------------------------------------------------
+()
+
+
+> (set-echo-ports! *console-output-port* (delete ps-port (echo-ports *console-output-port*)))
+(#[port 0x249cd1c0] #[port 0xd504f00])
+
+
+> (flush-output-port ps-port)
+#f
+
+
+> (close-output-port ps-port)
+#f
+
+
+> (err-protect (stop-transcript))
+Transcript Stop Time:  00:02:24, 14 May 2025 India Standard Time 
+Total Transcript Time: 0 Minute 17 Second.

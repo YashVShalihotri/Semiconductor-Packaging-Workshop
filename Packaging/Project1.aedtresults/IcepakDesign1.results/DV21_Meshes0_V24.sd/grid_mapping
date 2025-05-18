@@ -1,0 +1,1680 @@
+$begin 'MeshRegion'
+	Name='Global'
+	ParentRegion=0
+	Designid=6
+	Shapeid=0
+	Domainid=0
+	Root=true
+	HasMesh=true
+	MeshRegion=true
+	$begin 'Transform'
+		AffineMatrix[9: 1, 0, 0, 0, 1, 0, 0, 0, 1]
+		Translation[3: 0, 0, 0]
+	$end 'Transform'
+	$begin 'Objects'
+		Count=202
+		$begin 'Object1'
+			Name='Flipchip_BGA1_substrate'
+			Domains[21: 102, 1, 0, 106, 1, 1, 108, 1, 2, 105, 1, 3, 107, 1, 4, 104, 1, 5, 103, 1, 6]
+		$end 'Object1'
+		$begin 'Object2'
+			Name='Flipchip_BGA1_die'
+			Domains[21: 34, 2, 0, 38, 2, 1, 40, 2, 2, 37, 2, 3, 39, 2, 4, 36, 2, 5, 35, 2, 6]
+		$end 'Object2'
+		$begin 'Object3'
+			Name='Flipchip_BGA1_via'
+			Domains[21: 130, 3, 0, 134, 3, 1, 136, 3, 2, 133, 3, 3, 135, 3, 4, 132, 3, 5, 131, 3, 6]
+		$end 'Object3'
+		$begin 'Object4'
+			Name='Flipchip_BGA1_die_underfill'
+			Domains[21: 74, 4, 0, 78, 4, 1, 80, 4, 2, 77, 4, 3, 79, 4, 4, 76, 4, 5, 75, 4, 6]
+		$end 'Object4'
+		$begin 'Object5'
+			Name='Flipchip_BGA1_ball'
+			Domains[21: 170, 5, 0, 174, 5, 1, 176, 5, 2, 173, 5, 3, 175, 5, 4, 172, 5, 5, 171, 5, 6]
+		$end 'Object5'
+		$begin 'Object6'
+			Name='Flipchip_BGA1_ball_1'
+			Domains[21: 199, 6, 0, 203, 6, 1, 205, 6, 2, 202, 6, 3, 204, 6, 4, 201, 6, 5, 200, 6, 6]
+		$end 'Object6'
+		$begin 'Object7'
+			Name='Flipchip_BGA1_ball_2'
+			Domains[21: 227, 7, 0, 231, 7, 1, 233, 7, 2, 230, 7, 3, 232, 7, 4, 229, 7, 5, 228, 7, 6]
+		$end 'Object7'
+		$begin 'Object8'
+			Name='Flipchip_BGA1_ball_3'
+			Domains[21: 255, 8, 0, 259, 8, 1, 261, 8, 2, 258, 8, 3, 260, 8, 4, 257, 8, 5, 256, 8, 6]
+		$end 'Object8'
+		$begin 'Object9'
+			Name='Flipchip_BGA1_ball_4'
+			Domains[21: 283, 9, 0, 287, 9, 1, 289, 9, 2, 286, 9, 3, 288, 9, 4, 285, 9, 5, 284, 9, 6]
+		$end 'Object9'
+		$begin 'Object10'
+			Name='Flipchip_BGA1_ball_5'
+			Domains[21: 311, 10, 0, 315, 10, 1, 317, 10, 2, 314, 10, 3, 316, 10, 4, 313, 10, 5, 312, 10, 6]
+		$end 'Object10'
+		$begin 'Object11'
+			Name='Flipchip_BGA1_ball_6'
+			Domains[21: 339, 11, 0, 343, 11, 1, 345, 11, 2, 342, 11, 3, 344, 11, 4, 341, 11, 5, 340, 11, 6]
+		$end 'Object11'
+		$begin 'Object12'
+			Name='Flipchip_BGA1_ball_7'
+			Domains[21: 367, 12, 0, 371, 12, 1, 373, 12, 2, 370, 12, 3, 372, 12, 4, 369, 12, 5, 368, 12, 6]
+		$end 'Object12'
+		$begin 'Object13'
+			Name='Flipchip_BGA1_ball_8'
+			Domains[21: 395, 13, 0, 399, 13, 1, 401, 13, 2, 398, 13, 3, 400, 13, 4, 397, 13, 5, 396, 13, 6]
+		$end 'Object13'
+		$begin 'Object14'
+			Name='Flipchip_BGA1_ball_9'
+			Domains[21: 423, 14, 0, 427, 14, 1, 429, 14, 2, 426, 14, 3, 428, 14, 4, 425, 14, 5, 424, 14, 6]
+		$end 'Object14'
+		$begin 'Object15'
+			Name='Flipchip_BGA1_ball_10'
+			Domains[21: 451, 15, 0, 455, 15, 1, 457, 15, 2, 454, 15, 3, 456, 15, 4, 453, 15, 5, 452, 15, 6]
+		$end 'Object15'
+		$begin 'Object16'
+			Name='Flipchip_BGA1_ball_11'
+			Domains[21: 479, 16, 0, 483, 16, 1, 485, 16, 2, 482, 16, 3, 484, 16, 4, 481, 16, 5, 480, 16, 6]
+		$end 'Object16'
+		$begin 'Object17'
+			Name='Flipchip_BGA1_ball_12'
+			Domains[21: 507, 17, 0, 511, 17, 1, 513, 17, 2, 510, 17, 3, 512, 17, 4, 509, 17, 5, 508, 17, 6]
+		$end 'Object17'
+		$begin 'Object18'
+			Name='Flipchip_BGA1_ball_13'
+			Domains[21: 535, 18, 0, 539, 18, 1, 541, 18, 2, 538, 18, 3, 540, 18, 4, 537, 18, 5, 536, 18, 6]
+		$end 'Object18'
+		$begin 'Object19'
+			Name='Flipchip_BGA1_ball_14'
+			Domains[21: 564, 19, 0, 568, 19, 1, 570, 19, 2, 567, 19, 3, 569, 19, 4, 566, 19, 5, 565, 19, 6]
+		$end 'Object19'
+		$begin 'Object20'
+			Name='Flipchip_BGA1_ball_15'
+			Domains[21: 592, 20, 0, 596, 20, 1, 598, 20, 2, 595, 20, 3, 597, 20, 4, 594, 20, 5, 593, 20, 6]
+		$end 'Object20'
+		$begin 'Object21'
+			Name='Flipchip_BGA1_ball_16'
+			Domains[21: 620, 21, 0, 624, 21, 1, 626, 21, 2, 623, 21, 3, 625, 21, 4, 622, 21, 5, 621, 21, 6]
+		$end 'Object21'
+		$begin 'Object22'
+			Name='Flipchip_BGA1_ball_17'
+			Domains[21: 648, 22, 0, 652, 22, 1, 654, 22, 2, 651, 22, 3, 653, 22, 4, 650, 22, 5, 649, 22, 6]
+		$end 'Object22'
+		$begin 'Object23'
+			Name='Flipchip_BGA1_ball_18'
+			Domains[21: 676, 23, 0, 680, 23, 1, 682, 23, 2, 679, 23, 3, 681, 23, 4, 678, 23, 5, 677, 23, 6]
+		$end 'Object23'
+		$begin 'Object24'
+			Name='Flipchip_BGA1_ball_19'
+			Domains[21: 704, 24, 0, 708, 24, 1, 710, 24, 2, 707, 24, 3, 709, 24, 4, 706, 24, 5, 705, 24, 6]
+		$end 'Object24'
+		$begin 'Object25'
+			Name='Flipchip_BGA1_ball_20'
+			Domains[21: 732, 25, 0, 736, 25, 1, 738, 25, 2, 735, 25, 3, 737, 25, 4, 734, 25, 5, 733, 25, 6]
+		$end 'Object25'
+		$begin 'Object26'
+			Name='Flipchip_BGA1_ball_21'
+			Domains[21: 760, 26, 0, 764, 26, 1, 766, 26, 2, 763, 26, 3, 765, 26, 4, 762, 26, 5, 761, 26, 6]
+		$end 'Object26'
+		$begin 'Object27'
+			Name='Flipchip_BGA1_ball_22'
+			Domains[21: 788, 27, 0, 792, 27, 1, 794, 27, 2, 791, 27, 3, 793, 27, 4, 790, 27, 5, 789, 27, 6]
+		$end 'Object27'
+		$begin 'Object28'
+			Name='Flipchip_BGA1_ball_23'
+			Domains[21: 816, 28, 0, 820, 28, 1, 822, 28, 2, 819, 28, 3, 821, 28, 4, 818, 28, 5, 817, 28, 6]
+		$end 'Object28'
+		$begin 'Object29'
+			Name='Flipchip_BGA1_ball_24'
+			Domains[21: 844, 29, 0, 848, 29, 1, 850, 29, 2, 847, 29, 3, 849, 29, 4, 846, 29, 5, 845, 29, 6]
+		$end 'Object29'
+		$begin 'Object30'
+			Name='Flipchip_BGA1_ball_25'
+			Domains[21: 872, 30, 0, 876, 30, 1, 878, 30, 2, 875, 30, 3, 877, 30, 4, 874, 30, 5, 873, 30, 6]
+		$end 'Object30'
+		$begin 'Object31'
+			Name='Flipchip_BGA1_ball_26'
+			Domains[21: 900, 31, 0, 904, 31, 1, 906, 31, 2, 903, 31, 3, 905, 31, 4, 902, 31, 5, 901, 31, 6]
+		$end 'Object31'
+		$begin 'Object32'
+			Name='Flipchip_BGA1_ball_1_1'
+			Domains[21: 929, 32, 0, 933, 32, 1, 935, 32, 2, 932, 32, 3, 934, 32, 4, 931, 32, 5, 930, 32, 6]
+		$end 'Object32'
+		$begin 'Object33'
+			Name='Flipchip_BGA1_ball_1_2'
+			Domains[21: 957, 33, 0, 961, 33, 1, 963, 33, 2, 960, 33, 3, 962, 33, 4, 959, 33, 5, 958, 33, 6]
+		$end 'Object33'
+		$begin 'Object34'
+			Name='Flipchip_BGA1_ball_1_3'
+			Domains[21: 985, 34, 0, 989, 34, 1, 991, 34, 2, 988, 34, 3, 990, 34, 4, 987, 34, 5, 986, 34, 6]
+		$end 'Object34'
+		$begin 'Object35'
+			Name='Flipchip_BGA1_ball_1_4'
+			Domains[21: 1013, 35, 0, 1017, 35, 1, 1019, 35, 2, 1016, 35, 3, 1018, 35, 4, 1015, 35, 5, 1014, 35, 6]
+		$end 'Object35'
+		$begin 'Object36'
+			Name='Flipchip_BGA1_ball_1_5'
+			Domains[21: 1041, 36, 0, 1045, 36, 1, 1047, 36, 2, 1044, 36, 3, 1046, 36, 4, 1043, 36, 5, 1042, 36, 6]
+		$end 'Object36'
+		$begin 'Object37'
+			Name='Flipchip_BGA1_ball_1_6'
+			Domains[21: 1069, 37, 0, 1073, 37, 1, 1075, 37, 2, 1072, 37, 3, 1074, 37, 4, 1071, 37, 5, 1070, 37, 6]
+		$end 'Object37'
+		$begin 'Object38'
+			Name='Flipchip_BGA1_ball_1_7'
+			Domains[21: 1097, 38, 0, 1101, 38, 1, 1103, 38, 2, 1100, 38, 3, 1102, 38, 4, 1099, 38, 5, 1098, 38, 6]
+		$end 'Object38'
+		$begin 'Object39'
+			Name='Flipchip_BGA1_ball_1_8'
+			Domains[21: 1125, 39, 0, 1129, 39, 1, 1131, 39, 2, 1128, 39, 3, 1130, 39, 4, 1127, 39, 5, 1126, 39, 6]
+		$end 'Object39'
+		$begin 'Object40'
+			Name='Flipchip_BGA1_ball_1_9'
+			Domains[21: 1153, 40, 0, 1157, 40, 1, 1159, 40, 2, 1156, 40, 3, 1158, 40, 4, 1155, 40, 5, 1154, 40, 6]
+		$end 'Object40'
+		$begin 'Object41'
+			Name='Flipchip_BGA1_ball_1_10'
+			Domains[21: 1181, 41, 0, 1185, 41, 1, 1187, 41, 2, 1184, 41, 3, 1186, 41, 4, 1183, 41, 5, 1182, 41, 6]
+		$end 'Object41'
+		$begin 'Object42'
+			Name='Flipchip_BGA1_ball_1_11'
+			Domains[21: 1209, 42, 0, 1213, 42, 1, 1215, 42, 2, 1212, 42, 3, 1214, 42, 4, 1211, 42, 5, 1210, 42, 6]
+		$end 'Object42'
+		$begin 'Object43'
+			Name='Flipchip_BGA1_ball_1_12'
+			Domains[21: 1237, 43, 0, 1241, 43, 1, 1243, 43, 2, 1240, 43, 3, 1242, 43, 4, 1239, 43, 5, 1238, 43, 6]
+		$end 'Object43'
+		$begin 'Object44'
+			Name='Flipchip_BGA1_ball_1_13'
+			Domains[21: 1265, 44, 0, 1269, 44, 1, 1271, 44, 2, 1268, 44, 3, 1270, 44, 4, 1267, 44, 5, 1266, 44, 6]
+		$end 'Object44'
+		$begin 'Object45'
+			Name='Flipchip_BGA1_ball_2_1'
+			Domains[21: 1294, 45, 0, 1298, 45, 1, 1300, 45, 2, 1297, 45, 3, 1299, 45, 4, 1296, 45, 5, 1295, 45, 6]
+		$end 'Object45'
+		$begin 'Object46'
+			Name='Flipchip_BGA1_ball_2_2'
+			Domains[21: 1322, 46, 0, 1326, 46, 1, 1328, 46, 2, 1325, 46, 3, 1327, 46, 4, 1324, 46, 5, 1323, 46, 6]
+		$end 'Object46'
+		$begin 'Object47'
+			Name='Flipchip_BGA1_ball_2_3'
+			Domains[21: 1350, 47, 0, 1354, 47, 1, 1356, 47, 2, 1353, 47, 3, 1355, 47, 4, 1352, 47, 5, 1351, 47, 6]
+		$end 'Object47'
+		$begin 'Object48'
+			Name='Flipchip_BGA1_ball_2_4'
+			Domains[21: 1378, 48, 0, 1382, 48, 1, 1384, 48, 2, 1381, 48, 3, 1383, 48, 4, 1380, 48, 5, 1379, 48, 6]
+		$end 'Object48'
+		$begin 'Object49'
+			Name='Flipchip_BGA1_ball_2_5'
+			Domains[21: 1406, 49, 0, 1410, 49, 1, 1412, 49, 2, 1409, 49, 3, 1411, 49, 4, 1408, 49, 5, 1407, 49, 6]
+		$end 'Object49'
+		$begin 'Object50'
+			Name='Flipchip_BGA1_ball_2_6'
+			Domains[21: 1434, 50, 0, 1438, 50, 1, 1440, 50, 2, 1437, 50, 3, 1439, 50, 4, 1436, 50, 5, 1435, 50, 6]
+		$end 'Object50'
+		$begin 'Object51'
+			Name='Flipchip_BGA1_ball_2_7'
+			Domains[21: 1462, 51, 0, 1466, 51, 1, 1468, 51, 2, 1465, 51, 3, 1467, 51, 4, 1464, 51, 5, 1463, 51, 6]
+		$end 'Object51'
+		$begin 'Object52'
+			Name='Flipchip_BGA1_ball_2_8'
+			Domains[21: 1490, 52, 0, 1494, 52, 1, 1496, 52, 2, 1493, 52, 3, 1495, 52, 4, 1492, 52, 5, 1491, 52, 6]
+		$end 'Object52'
+		$begin 'Object53'
+			Name='Flipchip_BGA1_ball_2_9'
+			Domains[21: 1518, 53, 0, 1522, 53, 1, 1524, 53, 2, 1521, 53, 3, 1523, 53, 4, 1520, 53, 5, 1519, 53, 6]
+		$end 'Object53'
+		$begin 'Object54'
+			Name='Flipchip_BGA1_ball_2_10'
+			Domains[21: 1546, 54, 0, 1550, 54, 1, 1552, 54, 2, 1549, 54, 3, 1551, 54, 4, 1548, 54, 5, 1547, 54, 6]
+		$end 'Object54'
+		$begin 'Object55'
+			Name='Flipchip_BGA1_ball_2_11'
+			Domains[21: 1574, 55, 0, 1578, 55, 1, 1580, 55, 2, 1577, 55, 3, 1579, 55, 4, 1576, 55, 5, 1575, 55, 6]
+		$end 'Object55'
+		$begin 'Object56'
+			Name='Flipchip_BGA1_ball_2_12'
+			Domains[21: 1602, 56, 0, 1606, 56, 1, 1608, 56, 2, 1605, 56, 3, 1607, 56, 4, 1604, 56, 5, 1603, 56, 6]
+		$end 'Object56'
+		$begin 'Object57'
+			Name='Flipchip_BGA1_ball_2_13'
+			Domains[21: 1630, 57, 0, 1634, 57, 1, 1636, 57, 2, 1633, 57, 3, 1635, 57, 4, 1632, 57, 5, 1631, 57, 6]
+		$end 'Object57'
+		$begin 'Object58'
+			Name='Flipchip_BGA1_ball_3_1'
+			Domains[21: 1659, 58, 0, 1663, 58, 1, 1665, 58, 2, 1662, 58, 3, 1664, 58, 4, 1661, 58, 5, 1660, 58, 6]
+		$end 'Object58'
+		$begin 'Object59'
+			Name='Flipchip_BGA1_ball_3_2'
+			Domains[21: 1687, 59, 0, 1691, 59, 1, 1693, 59, 2, 1690, 59, 3, 1692, 59, 4, 1689, 59, 5, 1688, 59, 6]
+		$end 'Object59'
+		$begin 'Object60'
+			Name='Flipchip_BGA1_ball_3_3'
+			Domains[21: 1715, 60, 0, 1719, 60, 1, 1721, 60, 2, 1718, 60, 3, 1720, 60, 4, 1717, 60, 5, 1716, 60, 6]
+		$end 'Object60'
+		$begin 'Object61'
+			Name='Flipchip_BGA1_ball_3_4'
+			Domains[21: 1743, 61, 0, 1747, 61, 1, 1749, 61, 2, 1746, 61, 3, 1748, 61, 4, 1745, 61, 5, 1744, 61, 6]
+		$end 'Object61'
+		$begin 'Object62'
+			Name='Flipchip_BGA1_ball_3_5'
+			Domains[21: 1771, 62, 0, 1775, 62, 1, 1777, 62, 2, 1774, 62, 3, 1776, 62, 4, 1773, 62, 5, 1772, 62, 6]
+		$end 'Object62'
+		$begin 'Object63'
+			Name='Flipchip_BGA1_ball_3_6'
+			Domains[21: 1799, 63, 0, 1803, 63, 1, 1805, 63, 2, 1802, 63, 3, 1804, 63, 4, 1801, 63, 5, 1800, 63, 6]
+		$end 'Object63'
+		$begin 'Object64'
+			Name='Flipchip_BGA1_ball_3_7'
+			Domains[21: 1827, 64, 0, 1831, 64, 1, 1833, 64, 2, 1830, 64, 3, 1832, 64, 4, 1829, 64, 5, 1828, 64, 6]
+		$end 'Object64'
+		$begin 'Object65'
+			Name='Flipchip_BGA1_ball_3_8'
+			Domains[21: 1855, 65, 0, 1859, 65, 1, 1861, 65, 2, 1858, 65, 3, 1860, 65, 4, 1857, 65, 5, 1856, 65, 6]
+		$end 'Object65'
+		$begin 'Object66'
+			Name='Flipchip_BGA1_ball_3_9'
+			Domains[21: 1883, 66, 0, 1887, 66, 1, 1889, 66, 2, 1886, 66, 3, 1888, 66, 4, 1885, 66, 5, 1884, 66, 6]
+		$end 'Object66'
+		$begin 'Object67'
+			Name='Flipchip_BGA1_ball_3_10'
+			Domains[21: 1911, 67, 0, 1915, 67, 1, 1917, 67, 2, 1914, 67, 3, 1916, 67, 4, 1913, 67, 5, 1912, 67, 6]
+		$end 'Object67'
+		$begin 'Object68'
+			Name='Flipchip_BGA1_ball_3_11'
+			Domains[21: 1939, 68, 0, 1943, 68, 1, 1945, 68, 2, 1942, 68, 3, 1944, 68, 4, 1941, 68, 5, 1940, 68, 6]
+		$end 'Object68'
+		$begin 'Object69'
+			Name='Flipchip_BGA1_ball_3_12'
+			Domains[21: 1967, 69, 0, 1971, 69, 1, 1973, 69, 2, 1970, 69, 3, 1972, 69, 4, 1969, 69, 5, 1968, 69, 6]
+		$end 'Object69'
+		$begin 'Object70'
+			Name='Flipchip_BGA1_ball_3_13'
+			Domains[21: 1995, 70, 0, 1999, 70, 1, 2001, 70, 2, 1998, 70, 3, 2000, 70, 4, 1997, 70, 5, 1996, 70, 6]
+		$end 'Object70'
+		$begin 'Object71'
+			Name='Flipchip_BGA1_ball_4_1'
+			Domains[21: 2024, 71, 0, 2028, 71, 1, 2030, 71, 2, 2027, 71, 3, 2029, 71, 4, 2026, 71, 5, 2025, 71, 6]
+		$end 'Object71'
+		$begin 'Object72'
+			Name='Flipchip_BGA1_ball_4_2'
+			Domains[21: 2052, 72, 0, 2056, 72, 1, 2058, 72, 2, 2055, 72, 3, 2057, 72, 4, 2054, 72, 5, 2053, 72, 6]
+		$end 'Object72'
+		$begin 'Object73'
+			Name='Flipchip_BGA1_ball_4_3'
+			Domains[21: 2080, 73, 0, 2084, 73, 1, 2086, 73, 2, 2083, 73, 3, 2085, 73, 4, 2082, 73, 5, 2081, 73, 6]
+		$end 'Object73'
+		$begin 'Object74'
+			Name='Flipchip_BGA1_ball_4_4'
+			Domains[21: 2108, 74, 0, 2112, 74, 1, 2114, 74, 2, 2111, 74, 3, 2113, 74, 4, 2110, 74, 5, 2109, 74, 6]
+		$end 'Object74'
+		$begin 'Object75'
+			Name='Flipchip_BGA1_ball_4_5'
+			Domains[21: 2136, 75, 0, 2140, 75, 1, 2142, 75, 2, 2139, 75, 3, 2141, 75, 4, 2138, 75, 5, 2137, 75, 6]
+		$end 'Object75'
+		$begin 'Object76'
+			Name='Flipchip_BGA1_ball_4_6'
+			Domains[21: 2164, 76, 0, 2168, 76, 1, 2170, 76, 2, 2167, 76, 3, 2169, 76, 4, 2166, 76, 5, 2165, 76, 6]
+		$end 'Object76'
+		$begin 'Object77'
+			Name='Flipchip_BGA1_ball_4_7'
+			Domains[21: 2192, 77, 0, 2196, 77, 1, 2198, 77, 2, 2195, 77, 3, 2197, 77, 4, 2194, 77, 5, 2193, 77, 6]
+		$end 'Object77'
+		$begin 'Object78'
+			Name='Flipchip_BGA1_ball_4_8'
+			Domains[21: 2220, 78, 0, 2224, 78, 1, 2226, 78, 2, 2223, 78, 3, 2225, 78, 4, 2222, 78, 5, 2221, 78, 6]
+		$end 'Object78'
+		$begin 'Object79'
+			Name='Flipchip_BGA1_ball_4_9'
+			Domains[21: 2248, 79, 0, 2252, 79, 1, 2254, 79, 2, 2251, 79, 3, 2253, 79, 4, 2250, 79, 5, 2249, 79, 6]
+		$end 'Object79'
+		$begin 'Object80'
+			Name='Flipchip_BGA1_ball_4_10'
+			Domains[21: 2276, 80, 0, 2280, 80, 1, 2282, 80, 2, 2279, 80, 3, 2281, 80, 4, 2278, 80, 5, 2277, 80, 6]
+		$end 'Object80'
+		$begin 'Object81'
+			Name='Flipchip_BGA1_ball_4_11'
+			Domains[21: 2304, 81, 0, 2308, 81, 1, 2310, 81, 2, 2307, 81, 3, 2309, 81, 4, 2306, 81, 5, 2305, 81, 6]
+		$end 'Object81'
+		$begin 'Object82'
+			Name='Flipchip_BGA1_ball_4_12'
+			Domains[21: 2332, 82, 0, 2336, 82, 1, 2338, 82, 2, 2335, 82, 3, 2337, 82, 4, 2334, 82, 5, 2333, 82, 6]
+		$end 'Object82'
+		$begin 'Object83'
+			Name='Flipchip_BGA1_ball_4_13'
+			Domains[21: 2360, 83, 0, 2364, 83, 1, 2366, 83, 2, 2363, 83, 3, 2365, 83, 4, 2362, 83, 5, 2361, 83, 6]
+		$end 'Object83'
+		$begin 'Object84'
+			Name='Flipchip_BGA1_ball_5_1'
+			Domains[21: 2389, 84, 0, 2393, 84, 1, 2395, 84, 2, 2392, 84, 3, 2394, 84, 4, 2391, 84, 5, 2390, 84, 6]
+		$end 'Object84'
+		$begin 'Object85'
+			Name='Flipchip_BGA1_ball_5_2'
+			Domains[21: 2417, 85, 0, 2421, 85, 1, 2423, 85, 2, 2420, 85, 3, 2422, 85, 4, 2419, 85, 5, 2418, 85, 6]
+		$end 'Object85'
+		$begin 'Object86'
+			Name='Flipchip_BGA1_ball_5_3'
+			Domains[21: 2445, 86, 0, 2449, 86, 1, 2451, 86, 2, 2448, 86, 3, 2450, 86, 4, 2447, 86, 5, 2446, 86, 6]
+		$end 'Object86'
+		$begin 'Object87'
+			Name='Flipchip_BGA1_ball_5_4'
+			Domains[21: 2473, 87, 0, 2477, 87, 1, 2479, 87, 2, 2476, 87, 3, 2478, 87, 4, 2475, 87, 5, 2474, 87, 6]
+		$end 'Object87'
+		$begin 'Object88'
+			Name='Flipchip_BGA1_ball_5_5'
+			Domains[21: 2501, 88, 0, 2505, 88, 1, 2507, 88, 2, 2504, 88, 3, 2506, 88, 4, 2503, 88, 5, 2502, 88, 6]
+		$end 'Object88'
+		$begin 'Object89'
+			Name='Flipchip_BGA1_ball_5_6'
+			Domains[21: 2529, 89, 0, 2533, 89, 1, 2535, 89, 2, 2532, 89, 3, 2534, 89, 4, 2531, 89, 5, 2530, 89, 6]
+		$end 'Object89'
+		$begin 'Object90'
+			Name='Flipchip_BGA1_ball_5_7'
+			Domains[21: 2557, 90, 0, 2561, 90, 1, 2563, 90, 2, 2560, 90, 3, 2562, 90, 4, 2559, 90, 5, 2558, 90, 6]
+		$end 'Object90'
+		$begin 'Object91'
+			Name='Flipchip_BGA1_ball_5_8'
+			Domains[21: 2585, 91, 0, 2589, 91, 1, 2591, 91, 2, 2588, 91, 3, 2590, 91, 4, 2587, 91, 5, 2586, 91, 6]
+		$end 'Object91'
+		$begin 'Object92'
+			Name='Flipchip_BGA1_ball_5_9'
+			Domains[21: 2613, 92, 0, 2617, 92, 1, 2619, 92, 2, 2616, 92, 3, 2618, 92, 4, 2615, 92, 5, 2614, 92, 6]
+		$end 'Object92'
+		$begin 'Object93'
+			Name='Flipchip_BGA1_ball_5_10'
+			Domains[21: 2641, 93, 0, 2645, 93, 1, 2647, 93, 2, 2644, 93, 3, 2646, 93, 4, 2643, 93, 5, 2642, 93, 6]
+		$end 'Object93'
+		$begin 'Object94'
+			Name='Flipchip_BGA1_ball_5_11'
+			Domains[21: 2669, 94, 0, 2673, 94, 1, 2675, 94, 2, 2672, 94, 3, 2674, 94, 4, 2671, 94, 5, 2670, 94, 6]
+		$end 'Object94'
+		$begin 'Object95'
+			Name='Flipchip_BGA1_ball_5_12'
+			Domains[21: 2697, 95, 0, 2701, 95, 1, 2703, 95, 2, 2700, 95, 3, 2702, 95, 4, 2699, 95, 5, 2698, 95, 6]
+		$end 'Object95'
+		$begin 'Object96'
+			Name='Flipchip_BGA1_ball_5_13'
+			Domains[21: 2725, 96, 0, 2729, 96, 1, 2731, 96, 2, 2728, 96, 3, 2730, 96, 4, 2727, 96, 5, 2726, 96, 6]
+		$end 'Object96'
+		$begin 'Object97'
+			Name='Flipchip_BGA1_ball_6_1'
+			Domains[21: 2754, 97, 0, 2758, 97, 1, 2760, 97, 2, 2757, 97, 3, 2759, 97, 4, 2756, 97, 5, 2755, 97, 6]
+		$end 'Object97'
+		$begin 'Object98'
+			Name='Flipchip_BGA1_ball_6_2'
+			Domains[21: 2782, 98, 0, 2786, 98, 1, 2788, 98, 2, 2785, 98, 3, 2787, 98, 4, 2784, 98, 5, 2783, 98, 6]
+		$end 'Object98'
+		$begin 'Object99'
+			Name='Flipchip_BGA1_ball_6_3'
+			Domains[21: 2810, 99, 0, 2814, 99, 1, 2816, 99, 2, 2813, 99, 3, 2815, 99, 4, 2812, 99, 5, 2811, 99, 6]
+		$end 'Object99'
+		$begin 'Object100'
+			Name='Flipchip_BGA1_ball_6_4'
+			Domains[21: 2838, 100, 0, 2842, 100, 1, 2844, 100, 2, 2841, 100, 3, 2843, 100, 4, 2840, 100, 5, 2839, 100, 6]
+		$end 'Object100'
+		$begin 'Object101'
+			Name='Flipchip_BGA1_ball_6_5'
+			Domains[21: 2866, 101, 0, 2870, 101, 1, 2872, 101, 2, 2869, 101, 3, 2871, 101, 4, 2868, 101, 5, 2867, 101, 6]
+		$end 'Object101'
+		$begin 'Object102'
+			Name='Flipchip_BGA1_ball_6_6'
+			Domains[21: 2894, 102, 0, 2898, 102, 1, 2900, 102, 2, 2897, 102, 3, 2899, 102, 4, 2896, 102, 5, 2895, 102, 6]
+		$end 'Object102'
+		$begin 'Object103'
+			Name='Flipchip_BGA1_ball_6_7'
+			Domains[21: 2922, 103, 0, 2926, 103, 1, 2928, 103, 2, 2925, 103, 3, 2927, 103, 4, 2924, 103, 5, 2923, 103, 6]
+		$end 'Object103'
+		$begin 'Object104'
+			Name='Flipchip_BGA1_ball_6_8'
+			Domains[21: 2950, 104, 0, 2954, 104, 1, 2956, 104, 2, 2953, 104, 3, 2955, 104, 4, 2952, 104, 5, 2951, 104, 6]
+		$end 'Object104'
+		$begin 'Object105'
+			Name='Flipchip_BGA1_ball_6_9'
+			Domains[21: 2978, 105, 0, 2982, 105, 1, 2984, 105, 2, 2981, 105, 3, 2983, 105, 4, 2980, 105, 5, 2979, 105, 6]
+		$end 'Object105'
+		$begin 'Object106'
+			Name='Flipchip_BGA1_ball_6_10'
+			Domains[21: 3006, 106, 0, 3010, 106, 1, 3012, 106, 2, 3009, 106, 3, 3011, 106, 4, 3008, 106, 5, 3007, 106, 6]
+		$end 'Object106'
+		$begin 'Object107'
+			Name='Flipchip_BGA1_ball_6_11'
+			Domains[21: 3034, 107, 0, 3038, 107, 1, 3040, 107, 2, 3037, 107, 3, 3039, 107, 4, 3036, 107, 5, 3035, 107, 6]
+		$end 'Object107'
+		$begin 'Object108'
+			Name='Flipchip_BGA1_ball_6_12'
+			Domains[21: 3062, 108, 0, 3066, 108, 1, 3068, 108, 2, 3065, 108, 3, 3067, 108, 4, 3064, 108, 5, 3063, 108, 6]
+		$end 'Object108'
+		$begin 'Object109'
+			Name='Flipchip_BGA1_ball_6_13'
+			Domains[21: 3090, 109, 0, 3094, 109, 1, 3096, 109, 2, 3093, 109, 3, 3095, 109, 4, 3092, 109, 5, 3091, 109, 6]
+		$end 'Object109'
+		$begin 'Object110'
+			Name='Flipchip_BGA1_ball_7_1'
+			Domains[21: 3119, 110, 0, 3123, 110, 1, 3125, 110, 2, 3122, 110, 3, 3124, 110, 4, 3121, 110, 5, 3120, 110, 6]
+		$end 'Object110'
+		$begin 'Object111'
+			Name='Flipchip_BGA1_ball_7_2'
+			Domains[21: 3147, 111, 0, 3151, 111, 1, 3153, 111, 2, 3150, 111, 3, 3152, 111, 4, 3149, 111, 5, 3148, 111, 6]
+		$end 'Object111'
+		$begin 'Object112'
+			Name='Flipchip_BGA1_ball_7_3'
+			Domains[21: 3175, 112, 0, 3179, 112, 1, 3181, 112, 2, 3178, 112, 3, 3180, 112, 4, 3177, 112, 5, 3176, 112, 6]
+		$end 'Object112'
+		$begin 'Object113'
+			Name='Flipchip_BGA1_ball_7_4'
+			Domains[21: 3203, 113, 0, 3207, 113, 1, 3209, 113, 2, 3206, 113, 3, 3208, 113, 4, 3205, 113, 5, 3204, 113, 6]
+		$end 'Object113'
+		$begin 'Object114'
+			Name='Flipchip_BGA1_ball_7_5'
+			Domains[21: 3231, 114, 0, 3235, 114, 1, 3237, 114, 2, 3234, 114, 3, 3236, 114, 4, 3233, 114, 5, 3232, 114, 6]
+		$end 'Object114'
+		$begin 'Object115'
+			Name='Flipchip_BGA1_ball_7_6'
+			Domains[21: 3259, 115, 0, 3263, 115, 1, 3265, 115, 2, 3262, 115, 3, 3264, 115, 4, 3261, 115, 5, 3260, 115, 6]
+		$end 'Object115'
+		$begin 'Object116'
+			Name='Flipchip_BGA1_ball_7_7'
+			Domains[21: 3287, 116, 0, 3291, 116, 1, 3293, 116, 2, 3290, 116, 3, 3292, 116, 4, 3289, 116, 5, 3288, 116, 6]
+		$end 'Object116'
+		$begin 'Object117'
+			Name='Flipchip_BGA1_ball_7_8'
+			Domains[21: 3315, 117, 0, 3319, 117, 1, 3321, 117, 2, 3318, 117, 3, 3320, 117, 4, 3317, 117, 5, 3316, 117, 6]
+		$end 'Object117'
+		$begin 'Object118'
+			Name='Flipchip_BGA1_ball_7_9'
+			Domains[21: 3343, 118, 0, 3347, 118, 1, 3349, 118, 2, 3346, 118, 3, 3348, 118, 4, 3345, 118, 5, 3344, 118, 6]
+		$end 'Object118'
+		$begin 'Object119'
+			Name='Flipchip_BGA1_ball_7_10'
+			Domains[21: 3371, 119, 0, 3375, 119, 1, 3377, 119, 2, 3374, 119, 3, 3376, 119, 4, 3373, 119, 5, 3372, 119, 6]
+		$end 'Object119'
+		$begin 'Object120'
+			Name='Flipchip_BGA1_ball_7_11'
+			Domains[21: 3399, 120, 0, 3403, 120, 1, 3405, 120, 2, 3402, 120, 3, 3404, 120, 4, 3401, 120, 5, 3400, 120, 6]
+		$end 'Object120'
+		$begin 'Object121'
+			Name='Flipchip_BGA1_ball_7_12'
+			Domains[21: 3427, 121, 0, 3431, 121, 1, 3433, 121, 2, 3430, 121, 3, 3432, 121, 4, 3429, 121, 5, 3428, 121, 6]
+		$end 'Object121'
+		$begin 'Object122'
+			Name='Flipchip_BGA1_ball_7_13'
+			Domains[21: 3455, 122, 0, 3459, 122, 1, 3461, 122, 2, 3458, 122, 3, 3460, 122, 4, 3457, 122, 5, 3456, 122, 6]
+		$end 'Object122'
+		$begin 'Object123'
+			Name='Flipchip_BGA1_ball_8_1'
+			Domains[21: 3484, 123, 0, 3488, 123, 1, 3490, 123, 2, 3487, 123, 3, 3489, 123, 4, 3486, 123, 5, 3485, 123, 6]
+		$end 'Object123'
+		$begin 'Object124'
+			Name='Flipchip_BGA1_ball_8_2'
+			Domains[21: 3512, 124, 0, 3516, 124, 1, 3518, 124, 2, 3515, 124, 3, 3517, 124, 4, 3514, 124, 5, 3513, 124, 6]
+		$end 'Object124'
+		$begin 'Object125'
+			Name='Flipchip_BGA1_ball_8_3'
+			Domains[21: 3540, 125, 0, 3544, 125, 1, 3546, 125, 2, 3543, 125, 3, 3545, 125, 4, 3542, 125, 5, 3541, 125, 6]
+		$end 'Object125'
+		$begin 'Object126'
+			Name='Flipchip_BGA1_ball_8_4'
+			Domains[21: 3568, 126, 0, 3572, 126, 1, 3574, 126, 2, 3571, 126, 3, 3573, 126, 4, 3570, 126, 5, 3569, 126, 6]
+		$end 'Object126'
+		$begin 'Object127'
+			Name='Flipchip_BGA1_ball_8_5'
+			Domains[21: 3596, 127, 0, 3600, 127, 1, 3602, 127, 2, 3599, 127, 3, 3601, 127, 4, 3598, 127, 5, 3597, 127, 6]
+		$end 'Object127'
+		$begin 'Object128'
+			Name='Flipchip_BGA1_ball_8_6'
+			Domains[21: 3624, 128, 0, 3628, 128, 1, 3630, 128, 2, 3627, 128, 3, 3629, 128, 4, 3626, 128, 5, 3625, 128, 6]
+		$end 'Object128'
+		$begin 'Object129'
+			Name='Flipchip_BGA1_ball_8_7'
+			Domains[21: 3652, 129, 0, 3656, 129, 1, 3658, 129, 2, 3655, 129, 3, 3657, 129, 4, 3654, 129, 5, 3653, 129, 6]
+		$end 'Object129'
+		$begin 'Object130'
+			Name='Flipchip_BGA1_ball_8_8'
+			Domains[21: 3680, 130, 0, 3684, 130, 1, 3686, 130, 2, 3683, 130, 3, 3685, 130, 4, 3682, 130, 5, 3681, 130, 6]
+		$end 'Object130'
+		$begin 'Object131'
+			Name='Flipchip_BGA1_ball_8_9'
+			Domains[21: 3708, 131, 0, 3712, 131, 1, 3714, 131, 2, 3711, 131, 3, 3713, 131, 4, 3710, 131, 5, 3709, 131, 6]
+		$end 'Object131'
+		$begin 'Object132'
+			Name='Flipchip_BGA1_ball_8_10'
+			Domains[21: 3736, 132, 0, 3740, 132, 1, 3742, 132, 2, 3739, 132, 3, 3741, 132, 4, 3738, 132, 5, 3737, 132, 6]
+		$end 'Object132'
+		$begin 'Object133'
+			Name='Flipchip_BGA1_ball_8_11'
+			Domains[21: 3764, 133, 0, 3768, 133, 1, 3770, 133, 2, 3767, 133, 3, 3769, 133, 4, 3766, 133, 5, 3765, 133, 6]
+		$end 'Object133'
+		$begin 'Object134'
+			Name='Flipchip_BGA1_ball_8_12'
+			Domains[21: 3792, 134, 0, 3796, 134, 1, 3798, 134, 2, 3795, 134, 3, 3797, 134, 4, 3794, 134, 5, 3793, 134, 6]
+		$end 'Object134'
+		$begin 'Object135'
+			Name='Flipchip_BGA1_ball_8_13'
+			Domains[21: 3820, 135, 0, 3824, 135, 1, 3826, 135, 2, 3823, 135, 3, 3825, 135, 4, 3822, 135, 5, 3821, 135, 6]
+		$end 'Object135'
+		$begin 'Object136'
+			Name='Flipchip_BGA1_ball_9_1'
+			Domains[21: 3849, 136, 0, 3853, 136, 1, 3855, 136, 2, 3852, 136, 3, 3854, 136, 4, 3851, 136, 5, 3850, 136, 6]
+		$end 'Object136'
+		$begin 'Object137'
+			Name='Flipchip_BGA1_ball_9_2'
+			Domains[21: 3877, 137, 0, 3881, 137, 1, 3883, 137, 2, 3880, 137, 3, 3882, 137, 4, 3879, 137, 5, 3878, 137, 6]
+		$end 'Object137'
+		$begin 'Object138'
+			Name='Flipchip_BGA1_ball_9_3'
+			Domains[21: 3905, 138, 0, 3909, 138, 1, 3911, 138, 2, 3908, 138, 3, 3910, 138, 4, 3907, 138, 5, 3906, 138, 6]
+		$end 'Object138'
+		$begin 'Object139'
+			Name='Flipchip_BGA1_ball_9_4'
+			Domains[21: 3933, 139, 0, 3937, 139, 1, 3939, 139, 2, 3936, 139, 3, 3938, 139, 4, 3935, 139, 5, 3934, 139, 6]
+		$end 'Object139'
+		$begin 'Object140'
+			Name='Flipchip_BGA1_ball_9_5'
+			Domains[21: 3961, 140, 0, 3965, 140, 1, 3967, 140, 2, 3964, 140, 3, 3966, 140, 4, 3963, 140, 5, 3962, 140, 6]
+		$end 'Object140'
+		$begin 'Object141'
+			Name='Flipchip_BGA1_ball_9_6'
+			Domains[21: 3989, 141, 0, 3993, 141, 1, 3995, 141, 2, 3992, 141, 3, 3994, 141, 4, 3991, 141, 5, 3990, 141, 6]
+		$end 'Object141'
+		$begin 'Object142'
+			Name='Flipchip_BGA1_ball_9_7'
+			Domains[21: 4017, 142, 0, 4021, 142, 1, 4023, 142, 2, 4020, 142, 3, 4022, 142, 4, 4019, 142, 5, 4018, 142, 6]
+		$end 'Object142'
+		$begin 'Object143'
+			Name='Flipchip_BGA1_ball_9_8'
+			Domains[21: 4045, 143, 0, 4049, 143, 1, 4051, 143, 2, 4048, 143, 3, 4050, 143, 4, 4047, 143, 5, 4046, 143, 6]
+		$end 'Object143'
+		$begin 'Object144'
+			Name='Flipchip_BGA1_ball_9_9'
+			Domains[21: 4073, 144, 0, 4077, 144, 1, 4079, 144, 2, 4076, 144, 3, 4078, 144, 4, 4075, 144, 5, 4074, 144, 6]
+		$end 'Object144'
+		$begin 'Object145'
+			Name='Flipchip_BGA1_ball_9_10'
+			Domains[21: 4101, 145, 0, 4105, 145, 1, 4107, 145, 2, 4104, 145, 3, 4106, 145, 4, 4103, 145, 5, 4102, 145, 6]
+		$end 'Object145'
+		$begin 'Object146'
+			Name='Flipchip_BGA1_ball_9_11'
+			Domains[21: 4129, 146, 0, 4133, 146, 1, 4135, 146, 2, 4132, 146, 3, 4134, 146, 4, 4131, 146, 5, 4130, 146, 6]
+		$end 'Object146'
+		$begin 'Object147'
+			Name='Flipchip_BGA1_ball_9_12'
+			Domains[21: 4157, 147, 0, 4161, 147, 1, 4163, 147, 2, 4160, 147, 3, 4162, 147, 4, 4159, 147, 5, 4158, 147, 6]
+		$end 'Object147'
+		$begin 'Object148'
+			Name='Flipchip_BGA1_ball_9_13'
+			Domains[21: 4185, 148, 0, 4189, 148, 1, 4191, 148, 2, 4188, 148, 3, 4190, 148, 4, 4187, 148, 5, 4186, 148, 6]
+		$end 'Object148'
+		$begin 'Object149'
+			Name='Flipchip_BGA1_ball_10_1'
+			Domains[21: 4214, 149, 0, 4218, 149, 1, 4220, 149, 2, 4217, 149, 3, 4219, 149, 4, 4216, 149, 5, 4215, 149, 6]
+		$end 'Object149'
+		$begin 'Object150'
+			Name='Flipchip_BGA1_ball_10_2'
+			Domains[21: 4242, 150, 0, 4246, 150, 1, 4248, 150, 2, 4245, 150, 3, 4247, 150, 4, 4244, 150, 5, 4243, 150, 6]
+		$end 'Object150'
+		$begin 'Object151'
+			Name='Flipchip_BGA1_ball_10_3'
+			Domains[21: 4270, 151, 0, 4274, 151, 1, 4276, 151, 2, 4273, 151, 3, 4275, 151, 4, 4272, 151, 5, 4271, 151, 6]
+		$end 'Object151'
+		$begin 'Object152'
+			Name='Flipchip_BGA1_ball_10_4'
+			Domains[21: 4298, 152, 0, 4302, 152, 1, 4304, 152, 2, 4301, 152, 3, 4303, 152, 4, 4300, 152, 5, 4299, 152, 6]
+		$end 'Object152'
+		$begin 'Object153'
+			Name='Flipchip_BGA1_ball_10_5'
+			Domains[21: 4326, 153, 0, 4330, 153, 1, 4332, 153, 2, 4329, 153, 3, 4331, 153, 4, 4328, 153, 5, 4327, 153, 6]
+		$end 'Object153'
+		$begin 'Object154'
+			Name='Flipchip_BGA1_ball_10_6'
+			Domains[21: 4354, 154, 0, 4358, 154, 1, 4360, 154, 2, 4357, 154, 3, 4359, 154, 4, 4356, 154, 5, 4355, 154, 6]
+		$end 'Object154'
+		$begin 'Object155'
+			Name='Flipchip_BGA1_ball_10_7'
+			Domains[21: 4382, 155, 0, 4386, 155, 1, 4388, 155, 2, 4385, 155, 3, 4387, 155, 4, 4384, 155, 5, 4383, 155, 6]
+		$end 'Object155'
+		$begin 'Object156'
+			Name='Flipchip_BGA1_ball_10_8'
+			Domains[21: 4410, 156, 0, 4414, 156, 1, 4416, 156, 2, 4413, 156, 3, 4415, 156, 4, 4412, 156, 5, 4411, 156, 6]
+		$end 'Object156'
+		$begin 'Object157'
+			Name='Flipchip_BGA1_ball_10_9'
+			Domains[21: 4438, 157, 0, 4442, 157, 1, 4444, 157, 2, 4441, 157, 3, 4443, 157, 4, 4440, 157, 5, 4439, 157, 6]
+		$end 'Object157'
+		$begin 'Object158'
+			Name='Flipchip_BGA1_ball_10_10'
+			Domains[21: 4466, 158, 0, 4470, 158, 1, 4472, 158, 2, 4469, 158, 3, 4471, 158, 4, 4468, 158, 5, 4467, 158, 6]
+		$end 'Object158'
+		$begin 'Object159'
+			Name='Flipchip_BGA1_ball_10_11'
+			Domains[21: 4494, 159, 0, 4498, 159, 1, 4500, 159, 2, 4497, 159, 3, 4499, 159, 4, 4496, 159, 5, 4495, 159, 6]
+		$end 'Object159'
+		$begin 'Object160'
+			Name='Flipchip_BGA1_ball_10_12'
+			Domains[21: 4522, 160, 0, 4526, 160, 1, 4528, 160, 2, 4525, 160, 3, 4527, 160, 4, 4524, 160, 5, 4523, 160, 6]
+		$end 'Object160'
+		$begin 'Object161'
+			Name='Flipchip_BGA1_ball_10_13'
+			Domains[21: 4550, 161, 0, 4554, 161, 1, 4556, 161, 2, 4553, 161, 3, 4555, 161, 4, 4552, 161, 5, 4551, 161, 6]
+		$end 'Object161'
+		$begin 'Object162'
+			Name='Flipchip_BGA1_ball_11_1'
+			Domains[21: 4579, 162, 0, 4583, 162, 1, 4585, 162, 2, 4582, 162, 3, 4584, 162, 4, 4581, 162, 5, 4580, 162, 6]
+		$end 'Object162'
+		$begin 'Object163'
+			Name='Flipchip_BGA1_ball_11_2'
+			Domains[21: 4607, 163, 0, 4611, 163, 1, 4613, 163, 2, 4610, 163, 3, 4612, 163, 4, 4609, 163, 5, 4608, 163, 6]
+		$end 'Object163'
+		$begin 'Object164'
+			Name='Flipchip_BGA1_ball_11_3'
+			Domains[21: 4635, 164, 0, 4639, 164, 1, 4641, 164, 2, 4638, 164, 3, 4640, 164, 4, 4637, 164, 5, 4636, 164, 6]
+		$end 'Object164'
+		$begin 'Object165'
+			Name='Flipchip_BGA1_ball_11_4'
+			Domains[21: 4663, 165, 0, 4667, 165, 1, 4669, 165, 2, 4666, 165, 3, 4668, 165, 4, 4665, 165, 5, 4664, 165, 6]
+		$end 'Object165'
+		$begin 'Object166'
+			Name='Flipchip_BGA1_ball_11_5'
+			Domains[21: 4691, 166, 0, 4695, 166, 1, 4697, 166, 2, 4694, 166, 3, 4696, 166, 4, 4693, 166, 5, 4692, 166, 6]
+		$end 'Object166'
+		$begin 'Object167'
+			Name='Flipchip_BGA1_ball_11_6'
+			Domains[21: 4719, 167, 0, 4723, 167, 1, 4725, 167, 2, 4722, 167, 3, 4724, 167, 4, 4721, 167, 5, 4720, 167, 6]
+		$end 'Object167'
+		$begin 'Object168'
+			Name='Flipchip_BGA1_ball_11_7'
+			Domains[21: 4747, 168, 0, 4751, 168, 1, 4753, 168, 2, 4750, 168, 3, 4752, 168, 4, 4749, 168, 5, 4748, 168, 6]
+		$end 'Object168'
+		$begin 'Object169'
+			Name='Flipchip_BGA1_ball_11_8'
+			Domains[21: 4775, 169, 0, 4779, 169, 1, 4781, 169, 2, 4778, 169, 3, 4780, 169, 4, 4777, 169, 5, 4776, 169, 6]
+		$end 'Object169'
+		$begin 'Object170'
+			Name='Flipchip_BGA1_ball_11_9'
+			Domains[21: 4803, 170, 0, 4807, 170, 1, 4809, 170, 2, 4806, 170, 3, 4808, 170, 4, 4805, 170, 5, 4804, 170, 6]
+		$end 'Object170'
+		$begin 'Object171'
+			Name='Flipchip_BGA1_ball_11_10'
+			Domains[21: 4831, 171, 0, 4835, 171, 1, 4837, 171, 2, 4834, 171, 3, 4836, 171, 4, 4833, 171, 5, 4832, 171, 6]
+		$end 'Object171'
+		$begin 'Object172'
+			Name='Flipchip_BGA1_ball_11_11'
+			Domains[21: 4859, 172, 0, 4863, 172, 1, 4865, 172, 2, 4862, 172, 3, 4864, 172, 4, 4861, 172, 5, 4860, 172, 6]
+		$end 'Object172'
+		$begin 'Object173'
+			Name='Flipchip_BGA1_ball_11_12'
+			Domains[21: 4887, 173, 0, 4891, 173, 1, 4893, 173, 2, 4890, 173, 3, 4892, 173, 4, 4889, 173, 5, 4888, 173, 6]
+		$end 'Object173'
+		$begin 'Object174'
+			Name='Flipchip_BGA1_ball_11_13'
+			Domains[21: 4915, 174, 0, 4919, 174, 1, 4921, 174, 2, 4918, 174, 3, 4920, 174, 4, 4917, 174, 5, 4916, 174, 6]
+		$end 'Object174'
+		$begin 'Object175'
+			Name='Flipchip_BGA1_ball_12_1'
+			Domains[21: 4944, 175, 0, 4948, 175, 1, 4950, 175, 2, 4947, 175, 3, 4949, 175, 4, 4946, 175, 5, 4945, 175, 6]
+		$end 'Object175'
+		$begin 'Object176'
+			Name='Flipchip_BGA1_ball_12_2'
+			Domains[21: 4972, 176, 0, 4976, 176, 1, 4978, 176, 2, 4975, 176, 3, 4977, 176, 4, 4974, 176, 5, 4973, 176, 6]
+		$end 'Object176'
+		$begin 'Object177'
+			Name='Flipchip_BGA1_ball_12_3'
+			Domains[21: 5000, 177, 0, 5004, 177, 1, 5006, 177, 2, 5003, 177, 3, 5005, 177, 4, 5002, 177, 5, 5001, 177, 6]
+		$end 'Object177'
+		$begin 'Object178'
+			Name='Flipchip_BGA1_ball_12_4'
+			Domains[21: 5028, 178, 0, 5032, 178, 1, 5034, 178, 2, 5031, 178, 3, 5033, 178, 4, 5030, 178, 5, 5029, 178, 6]
+		$end 'Object178'
+		$begin 'Object179'
+			Name='Flipchip_BGA1_ball_12_5'
+			Domains[21: 5056, 179, 0, 5060, 179, 1, 5062, 179, 2, 5059, 179, 3, 5061, 179, 4, 5058, 179, 5, 5057, 179, 6]
+		$end 'Object179'
+		$begin 'Object180'
+			Name='Flipchip_BGA1_ball_12_6'
+			Domains[21: 5084, 180, 0, 5088, 180, 1, 5090, 180, 2, 5087, 180, 3, 5089, 180, 4, 5086, 180, 5, 5085, 180, 6]
+		$end 'Object180'
+		$begin 'Object181'
+			Name='Flipchip_BGA1_ball_12_7'
+			Domains[21: 5112, 181, 0, 5116, 181, 1, 5118, 181, 2, 5115, 181, 3, 5117, 181, 4, 5114, 181, 5, 5113, 181, 6]
+		$end 'Object181'
+		$begin 'Object182'
+			Name='Flipchip_BGA1_ball_12_8'
+			Domains[21: 5140, 182, 0, 5144, 182, 1, 5146, 182, 2, 5143, 182, 3, 5145, 182, 4, 5142, 182, 5, 5141, 182, 6]
+		$end 'Object182'
+		$begin 'Object183'
+			Name='Flipchip_BGA1_ball_12_9'
+			Domains[21: 5168, 183, 0, 5172, 183, 1, 5174, 183, 2, 5171, 183, 3, 5173, 183, 4, 5170, 183, 5, 5169, 183, 6]
+		$end 'Object183'
+		$begin 'Object184'
+			Name='Flipchip_BGA1_ball_12_10'
+			Domains[21: 5196, 184, 0, 5200, 184, 1, 5202, 184, 2, 5199, 184, 3, 5201, 184, 4, 5198, 184, 5, 5197, 184, 6]
+		$end 'Object184'
+		$begin 'Object185'
+			Name='Flipchip_BGA1_ball_12_11'
+			Domains[21: 5224, 185, 0, 5228, 185, 1, 5230, 185, 2, 5227, 185, 3, 5229, 185, 4, 5226, 185, 5, 5225, 185, 6]
+		$end 'Object185'
+		$begin 'Object186'
+			Name='Flipchip_BGA1_ball_12_12'
+			Domains[21: 5252, 186, 0, 5256, 186, 1, 5258, 186, 2, 5255, 186, 3, 5257, 186, 4, 5254, 186, 5, 5253, 186, 6]
+		$end 'Object186'
+		$begin 'Object187'
+			Name='Flipchip_BGA1_ball_12_13'
+			Domains[21: 5280, 187, 0, 5284, 187, 1, 5286, 187, 2, 5283, 187, 3, 5285, 187, 4, 5282, 187, 5, 5281, 187, 6]
+		$end 'Object187'
+		$begin 'Object188'
+			Name='Flipchip_BGA1_ball_13_1'
+			Domains[21: 5309, 188, 0, 5313, 188, 1, 5315, 188, 2, 5312, 188, 3, 5314, 188, 4, 5311, 188, 5, 5310, 188, 6]
+		$end 'Object188'
+		$begin 'Object189'
+			Name='Flipchip_BGA1_ball_13_2'
+			Domains[21: 5337, 189, 0, 5341, 189, 1, 5343, 189, 2, 5340, 189, 3, 5342, 189, 4, 5339, 189, 5, 5338, 189, 6]
+		$end 'Object189'
+		$begin 'Object190'
+			Name='Flipchip_BGA1_ball_13_3'
+			Domains[21: 5365, 190, 0, 5369, 190, 1, 5371, 190, 2, 5368, 190, 3, 5370, 190, 4, 5367, 190, 5, 5366, 190, 6]
+		$end 'Object190'
+		$begin 'Object191'
+			Name='Flipchip_BGA1_ball_13_4'
+			Domains[21: 5393, 191, 0, 5397, 191, 1, 5399, 191, 2, 5396, 191, 3, 5398, 191, 4, 5395, 191, 5, 5394, 191, 6]
+		$end 'Object191'
+		$begin 'Object192'
+			Name='Flipchip_BGA1_ball_13_5'
+			Domains[21: 5421, 192, 0, 5425, 192, 1, 5427, 192, 2, 5424, 192, 3, 5426, 192, 4, 5423, 192, 5, 5422, 192, 6]
+		$end 'Object192'
+		$begin 'Object193'
+			Name='Flipchip_BGA1_ball_13_6'
+			Domains[21: 5449, 193, 0, 5453, 193, 1, 5455, 193, 2, 5452, 193, 3, 5454, 193, 4, 5451, 193, 5, 5450, 193, 6]
+		$end 'Object193'
+		$begin 'Object194'
+			Name='Flipchip_BGA1_ball_13_7'
+			Domains[21: 5477, 194, 0, 5481, 194, 1, 5483, 194, 2, 5480, 194, 3, 5482, 194, 4, 5479, 194, 5, 5478, 194, 6]
+		$end 'Object194'
+		$begin 'Object195'
+			Name='Flipchip_BGA1_ball_13_8'
+			Domains[21: 5505, 195, 0, 5509, 195, 1, 5511, 195, 2, 5508, 195, 3, 5510, 195, 4, 5507, 195, 5, 5506, 195, 6]
+		$end 'Object195'
+		$begin 'Object196'
+			Name='Flipchip_BGA1_ball_13_9'
+			Domains[21: 5533, 196, 0, 5537, 196, 1, 5539, 196, 2, 5536, 196, 3, 5538, 196, 4, 5535, 196, 5, 5534, 196, 6]
+		$end 'Object196'
+		$begin 'Object197'
+			Name='Flipchip_BGA1_ball_13_10'
+			Domains[21: 5561, 197, 0, 5565, 197, 1, 5567, 197, 2, 5564, 197, 3, 5566, 197, 4, 5563, 197, 5, 5562, 197, 6]
+		$end 'Object197'
+		$begin 'Object198'
+			Name='Flipchip_BGA1_ball_13_11'
+			Domains[21: 5589, 198, 0, 5593, 198, 1, 5595, 198, 2, 5592, 198, 3, 5594, 198, 4, 5591, 198, 5, 5590, 198, 6]
+		$end 'Object198'
+		$begin 'Object199'
+			Name='Flipchip_BGA1_ball_13_12'
+			Domains[21: 5617, 199, 0, 5621, 199, 1, 5623, 199, 2, 5620, 199, 3, 5622, 199, 4, 5619, 199, 5, 5618, 199, 6]
+		$end 'Object199'
+		$begin 'Object200'
+			Name='Flipchip_BGA1_ball_13_13'
+			Domains[21: 5645, 200, 0, 5649, 200, 1, 5651, 200, 2, 5648, 200, 3, 5650, 200, 4, 5647, 200, 5, 5646, 200, 6]
+		$end 'Object200'
+		$begin 'Object201'
+			Name='Flipchip_BGA1_trace1 - Face 168'
+			Domains[3: 168, 201, 1]
+		$end 'Object201'
+		$begin 'Object202'
+			Name='Flipchip_BGA1_die_source - Face 72'
+			Domains[3: 72, 202, 1]
+		$end 'Object202'
+	$end 'Objects'
+	$begin 'coupling_walls'
+		Domains[18: 10, 0, 1, 12, 0, 2, 9, 0, 3, 11, 0, 4, 8, 0, 5, 7, 0, 6]
+	$end 'coupling_walls'
+	$begin '2DFaceMapping'
+		Count=2
+		$begin 'FaceMap1'
+			Object=62
+			Faces[1: 72]
+		$end 'FaceMap1'
+		$begin 'FaceMap2'
+			Object=158
+			Faces[1: 168]
+		$end 'FaceMap2'
+	$end '2DFaceMapping'
+	$begin '3DFaceMapping'
+		Count=203
+		$begin 'FaceMap1'
+			Object=6
+			Faces[6: 7, 9, 10, 11, 8, 12]
+		$end 'FaceMap1'
+		$begin 'FaceMap2'
+			Object=34
+			Faces[6: 35, 37, 38, 39, 36, 40]
+		$end 'FaceMap2'
+		$begin 'FaceMap3'
+			Object=62
+			Faces[1: 72]
+		$end 'FaceMap3'
+		$begin 'FaceMap4'
+			Object=74
+			Faces[6: 75, 77, 78, 79, 76, 80]
+		$end 'FaceMap4'
+		$begin 'FaceMap5'
+			Object=102
+			Faces[6: 103, 105, 106, 107, 104, 108]
+		$end 'FaceMap5'
+		$begin 'FaceMap6'
+			Object=130
+			Faces[6: 131, 133, 134, 135, 132, 136]
+		$end 'FaceMap6'
+		$begin 'FaceMap7'
+			Object=158
+			Faces[1: 168]
+		$end 'FaceMap7'
+		$begin 'FaceMap8'
+			Object=170
+			Faces[6: 171, 173, 174, 175, 172, 176]
+		$end 'FaceMap8'
+		$begin 'FaceMap9'
+			Object=199
+			Faces[6: 200, 202, 203, 204, 201, 205]
+		$end 'FaceMap9'
+		$begin 'FaceMap10'
+			Object=227
+			Faces[6: 228, 230, 231, 232, 229, 233]
+		$end 'FaceMap10'
+		$begin 'FaceMap11'
+			Object=255
+			Faces[6: 256, 258, 259, 260, 257, 261]
+		$end 'FaceMap11'
+		$begin 'FaceMap12'
+			Object=283
+			Faces[6: 284, 286, 287, 288, 285, 289]
+		$end 'FaceMap12'
+		$begin 'FaceMap13'
+			Object=311
+			Faces[6: 312, 314, 315, 316, 313, 317]
+		$end 'FaceMap13'
+		$begin 'FaceMap14'
+			Object=339
+			Faces[6: 340, 342, 343, 344, 341, 345]
+		$end 'FaceMap14'
+		$begin 'FaceMap15'
+			Object=367
+			Faces[6: 368, 370, 371, 372, 369, 373]
+		$end 'FaceMap15'
+		$begin 'FaceMap16'
+			Object=395
+			Faces[6: 396, 398, 399, 400, 397, 401]
+		$end 'FaceMap16'
+		$begin 'FaceMap17'
+			Object=423
+			Faces[6: 424, 426, 427, 428, 425, 429]
+		$end 'FaceMap17'
+		$begin 'FaceMap18'
+			Object=451
+			Faces[6: 452, 454, 455, 456, 453, 457]
+		$end 'FaceMap18'
+		$begin 'FaceMap19'
+			Object=479
+			Faces[6: 480, 482, 483, 484, 481, 485]
+		$end 'FaceMap19'
+		$begin 'FaceMap20'
+			Object=507
+			Faces[6: 508, 510, 511, 512, 509, 513]
+		$end 'FaceMap20'
+		$begin 'FaceMap21'
+			Object=535
+			Faces[6: 536, 538, 539, 540, 537, 541]
+		$end 'FaceMap21'
+		$begin 'FaceMap22'
+			Object=564
+			Faces[6: 565, 567, 568, 569, 566, 570]
+		$end 'FaceMap22'
+		$begin 'FaceMap23'
+			Object=592
+			Faces[6: 593, 595, 596, 597, 594, 598]
+		$end 'FaceMap23'
+		$begin 'FaceMap24'
+			Object=620
+			Faces[6: 621, 623, 624, 625, 622, 626]
+		$end 'FaceMap24'
+		$begin 'FaceMap25'
+			Object=648
+			Faces[6: 649, 651, 652, 653, 650, 654]
+		$end 'FaceMap25'
+		$begin 'FaceMap26'
+			Object=676
+			Faces[6: 677, 679, 680, 681, 678, 682]
+		$end 'FaceMap26'
+		$begin 'FaceMap27'
+			Object=704
+			Faces[6: 705, 707, 708, 709, 706, 710]
+		$end 'FaceMap27'
+		$begin 'FaceMap28'
+			Object=732
+			Faces[6: 733, 735, 736, 737, 734, 738]
+		$end 'FaceMap28'
+		$begin 'FaceMap29'
+			Object=760
+			Faces[6: 761, 763, 764, 765, 762, 766]
+		$end 'FaceMap29'
+		$begin 'FaceMap30'
+			Object=788
+			Faces[6: 789, 791, 792, 793, 790, 794]
+		$end 'FaceMap30'
+		$begin 'FaceMap31'
+			Object=816
+			Faces[6: 817, 819, 820, 821, 818, 822]
+		$end 'FaceMap31'
+		$begin 'FaceMap32'
+			Object=844
+			Faces[6: 845, 847, 848, 849, 846, 850]
+		$end 'FaceMap32'
+		$begin 'FaceMap33'
+			Object=872
+			Faces[6: 873, 875, 876, 877, 874, 878]
+		$end 'FaceMap33'
+		$begin 'FaceMap34'
+			Object=900
+			Faces[6: 901, 903, 904, 905, 902, 906]
+		$end 'FaceMap34'
+		$begin 'FaceMap35'
+			Object=929
+			Faces[6: 930, 932, 933, 934, 931, 935]
+		$end 'FaceMap35'
+		$begin 'FaceMap36'
+			Object=957
+			Faces[6: 958, 960, 961, 962, 959, 963]
+		$end 'FaceMap36'
+		$begin 'FaceMap37'
+			Object=985
+			Faces[6: 986, 988, 989, 990, 987, 991]
+		$end 'FaceMap37'
+		$begin 'FaceMap38'
+			Object=1013
+			Faces[6: 1014, 1016, 1017, 1018, 1015, 1019]
+		$end 'FaceMap38'
+		$begin 'FaceMap39'
+			Object=1041
+			Faces[6: 1042, 1044, 1045, 1046, 1043, 1047]
+		$end 'FaceMap39'
+		$begin 'FaceMap40'
+			Object=1069
+			Faces[6: 1070, 1072, 1073, 1074, 1071, 1075]
+		$end 'FaceMap40'
+		$begin 'FaceMap41'
+			Object=1097
+			Faces[6: 1098, 1100, 1101, 1102, 1099, 1103]
+		$end 'FaceMap41'
+		$begin 'FaceMap42'
+			Object=1125
+			Faces[6: 1126, 1128, 1129, 1130, 1127, 1131]
+		$end 'FaceMap42'
+		$begin 'FaceMap43'
+			Object=1153
+			Faces[6: 1154, 1156, 1157, 1158, 1155, 1159]
+		$end 'FaceMap43'
+		$begin 'FaceMap44'
+			Object=1181
+			Faces[6: 1182, 1184, 1185, 1186, 1183, 1187]
+		$end 'FaceMap44'
+		$begin 'FaceMap45'
+			Object=1209
+			Faces[6: 1210, 1212, 1213, 1214, 1211, 1215]
+		$end 'FaceMap45'
+		$begin 'FaceMap46'
+			Object=1237
+			Faces[6: 1238, 1240, 1241, 1242, 1239, 1243]
+		$end 'FaceMap46'
+		$begin 'FaceMap47'
+			Object=1265
+			Faces[6: 1266, 1268, 1269, 1270, 1267, 1271]
+		$end 'FaceMap47'
+		$begin 'FaceMap48'
+			Object=1294
+			Faces[6: 1295, 1297, 1298, 1299, 1296, 1300]
+		$end 'FaceMap48'
+		$begin 'FaceMap49'
+			Object=1322
+			Faces[6: 1323, 1325, 1326, 1327, 1324, 1328]
+		$end 'FaceMap49'
+		$begin 'FaceMap50'
+			Object=1350
+			Faces[6: 1351, 1353, 1354, 1355, 1352, 1356]
+		$end 'FaceMap50'
+		$begin 'FaceMap51'
+			Object=1378
+			Faces[6: 1379, 1381, 1382, 1383, 1380, 1384]
+		$end 'FaceMap51'
+		$begin 'FaceMap52'
+			Object=1406
+			Faces[6: 1407, 1409, 1410, 1411, 1408, 1412]
+		$end 'FaceMap52'
+		$begin 'FaceMap53'
+			Object=1434
+			Faces[6: 1435, 1437, 1438, 1439, 1436, 1440]
+		$end 'FaceMap53'
+		$begin 'FaceMap54'
+			Object=1462
+			Faces[6: 1463, 1465, 1466, 1467, 1464, 1468]
+		$end 'FaceMap54'
+		$begin 'FaceMap55'
+			Object=1490
+			Faces[6: 1491, 1493, 1494, 1495, 1492, 1496]
+		$end 'FaceMap55'
+		$begin 'FaceMap56'
+			Object=1518
+			Faces[6: 1519, 1521, 1522, 1523, 1520, 1524]
+		$end 'FaceMap56'
+		$begin 'FaceMap57'
+			Object=1546
+			Faces[6: 1547, 1549, 1550, 1551, 1548, 1552]
+		$end 'FaceMap57'
+		$begin 'FaceMap58'
+			Object=1574
+			Faces[6: 1575, 1577, 1578, 1579, 1576, 1580]
+		$end 'FaceMap58'
+		$begin 'FaceMap59'
+			Object=1602
+			Faces[6: 1603, 1605, 1606, 1607, 1604, 1608]
+		$end 'FaceMap59'
+		$begin 'FaceMap60'
+			Object=1630
+			Faces[6: 1631, 1633, 1634, 1635, 1632, 1636]
+		$end 'FaceMap60'
+		$begin 'FaceMap61'
+			Object=1659
+			Faces[6: 1660, 1662, 1663, 1664, 1661, 1665]
+		$end 'FaceMap61'
+		$begin 'FaceMap62'
+			Object=1687
+			Faces[6: 1688, 1690, 1691, 1692, 1689, 1693]
+		$end 'FaceMap62'
+		$begin 'FaceMap63'
+			Object=1715
+			Faces[6: 1716, 1718, 1719, 1720, 1717, 1721]
+		$end 'FaceMap63'
+		$begin 'FaceMap64'
+			Object=1743
+			Faces[6: 1744, 1746, 1747, 1748, 1745, 1749]
+		$end 'FaceMap64'
+		$begin 'FaceMap65'
+			Object=1771
+			Faces[6: 1772, 1774, 1775, 1776, 1773, 1777]
+		$end 'FaceMap65'
+		$begin 'FaceMap66'
+			Object=1799
+			Faces[6: 1800, 1802, 1803, 1804, 1801, 1805]
+		$end 'FaceMap66'
+		$begin 'FaceMap67'
+			Object=1827
+			Faces[6: 1828, 1830, 1831, 1832, 1829, 1833]
+		$end 'FaceMap67'
+		$begin 'FaceMap68'
+			Object=1855
+			Faces[6: 1856, 1858, 1859, 1860, 1857, 1861]
+		$end 'FaceMap68'
+		$begin 'FaceMap69'
+			Object=1883
+			Faces[6: 1884, 1886, 1887, 1888, 1885, 1889]
+		$end 'FaceMap69'
+		$begin 'FaceMap70'
+			Object=1911
+			Faces[6: 1912, 1914, 1915, 1916, 1913, 1917]
+		$end 'FaceMap70'
+		$begin 'FaceMap71'
+			Object=1939
+			Faces[6: 1940, 1942, 1943, 1944, 1941, 1945]
+		$end 'FaceMap71'
+		$begin 'FaceMap72'
+			Object=1967
+			Faces[6: 1968, 1970, 1971, 1972, 1969, 1973]
+		$end 'FaceMap72'
+		$begin 'FaceMap73'
+			Object=1995
+			Faces[6: 1996, 1998, 1999, 2000, 1997, 2001]
+		$end 'FaceMap73'
+		$begin 'FaceMap74'
+			Object=2024
+			Faces[6: 2025, 2027, 2028, 2029, 2026, 2030]
+		$end 'FaceMap74'
+		$begin 'FaceMap75'
+			Object=2052
+			Faces[6: 2053, 2055, 2056, 2057, 2054, 2058]
+		$end 'FaceMap75'
+		$begin 'FaceMap76'
+			Object=2080
+			Faces[6: 2081, 2083, 2084, 2085, 2082, 2086]
+		$end 'FaceMap76'
+		$begin 'FaceMap77'
+			Object=2108
+			Faces[6: 2109, 2111, 2112, 2113, 2110, 2114]
+		$end 'FaceMap77'
+		$begin 'FaceMap78'
+			Object=2136
+			Faces[6: 2137, 2139, 2140, 2141, 2138, 2142]
+		$end 'FaceMap78'
+		$begin 'FaceMap79'
+			Object=2164
+			Faces[6: 2165, 2167, 2168, 2169, 2166, 2170]
+		$end 'FaceMap79'
+		$begin 'FaceMap80'
+			Object=2192
+			Faces[6: 2193, 2195, 2196, 2197, 2194, 2198]
+		$end 'FaceMap80'
+		$begin 'FaceMap81'
+			Object=2220
+			Faces[6: 2221, 2223, 2224, 2225, 2222, 2226]
+		$end 'FaceMap81'
+		$begin 'FaceMap82'
+			Object=2248
+			Faces[6: 2249, 2251, 2252, 2253, 2250, 2254]
+		$end 'FaceMap82'
+		$begin 'FaceMap83'
+			Object=2276
+			Faces[6: 2277, 2279, 2280, 2281, 2278, 2282]
+		$end 'FaceMap83'
+		$begin 'FaceMap84'
+			Object=2304
+			Faces[6: 2305, 2307, 2308, 2309, 2306, 2310]
+		$end 'FaceMap84'
+		$begin 'FaceMap85'
+			Object=2332
+			Faces[6: 2333, 2335, 2336, 2337, 2334, 2338]
+		$end 'FaceMap85'
+		$begin 'FaceMap86'
+			Object=2360
+			Faces[6: 2361, 2363, 2364, 2365, 2362, 2366]
+		$end 'FaceMap86'
+		$begin 'FaceMap87'
+			Object=2389
+			Faces[6: 2390, 2392, 2393, 2394, 2391, 2395]
+		$end 'FaceMap87'
+		$begin 'FaceMap88'
+			Object=2417
+			Faces[6: 2418, 2420, 2421, 2422, 2419, 2423]
+		$end 'FaceMap88'
+		$begin 'FaceMap89'
+			Object=2445
+			Faces[6: 2446, 2448, 2449, 2450, 2447, 2451]
+		$end 'FaceMap89'
+		$begin 'FaceMap90'
+			Object=2473
+			Faces[6: 2474, 2476, 2477, 2478, 2475, 2479]
+		$end 'FaceMap90'
+		$begin 'FaceMap91'
+			Object=2501
+			Faces[6: 2502, 2504, 2505, 2506, 2503, 2507]
+		$end 'FaceMap91'
+		$begin 'FaceMap92'
+			Object=2529
+			Faces[6: 2530, 2532, 2533, 2534, 2531, 2535]
+		$end 'FaceMap92'
+		$begin 'FaceMap93'
+			Object=2557
+			Faces[6: 2558, 2560, 2561, 2562, 2559, 2563]
+		$end 'FaceMap93'
+		$begin 'FaceMap94'
+			Object=2585
+			Faces[6: 2586, 2588, 2589, 2590, 2587, 2591]
+		$end 'FaceMap94'
+		$begin 'FaceMap95'
+			Object=2613
+			Faces[6: 2614, 2616, 2617, 2618, 2615, 2619]
+		$end 'FaceMap95'
+		$begin 'FaceMap96'
+			Object=2641
+			Faces[6: 2642, 2644, 2645, 2646, 2643, 2647]
+		$end 'FaceMap96'
+		$begin 'FaceMap97'
+			Object=2669
+			Faces[6: 2670, 2672, 2673, 2674, 2671, 2675]
+		$end 'FaceMap97'
+		$begin 'FaceMap98'
+			Object=2697
+			Faces[6: 2698, 2700, 2701, 2702, 2699, 2703]
+		$end 'FaceMap98'
+		$begin 'FaceMap99'
+			Object=2725
+			Faces[6: 2726, 2728, 2729, 2730, 2727, 2731]
+		$end 'FaceMap99'
+		$begin 'FaceMap100'
+			Object=2754
+			Faces[6: 2755, 2757, 2758, 2759, 2756, 2760]
+		$end 'FaceMap100'
+		$begin 'FaceMap101'
+			Object=2782
+			Faces[6: 2783, 2785, 2786, 2787, 2784, 2788]
+		$end 'FaceMap101'
+		$begin 'FaceMap102'
+			Object=2810
+			Faces[6: 2811, 2813, 2814, 2815, 2812, 2816]
+		$end 'FaceMap102'
+		$begin 'FaceMap103'
+			Object=2838
+			Faces[6: 2839, 2841, 2842, 2843, 2840, 2844]
+		$end 'FaceMap103'
+		$begin 'FaceMap104'
+			Object=2866
+			Faces[6: 2867, 2869, 2870, 2871, 2868, 2872]
+		$end 'FaceMap104'
+		$begin 'FaceMap105'
+			Object=2894
+			Faces[6: 2895, 2897, 2898, 2899, 2896, 2900]
+		$end 'FaceMap105'
+		$begin 'FaceMap106'
+			Object=2922
+			Faces[6: 2923, 2925, 2926, 2927, 2924, 2928]
+		$end 'FaceMap106'
+		$begin 'FaceMap107'
+			Object=2950
+			Faces[6: 2951, 2953, 2954, 2955, 2952, 2956]
+		$end 'FaceMap107'
+		$begin 'FaceMap108'
+			Object=2978
+			Faces[6: 2979, 2981, 2982, 2983, 2980, 2984]
+		$end 'FaceMap108'
+		$begin 'FaceMap109'
+			Object=3006
+			Faces[6: 3007, 3009, 3010, 3011, 3008, 3012]
+		$end 'FaceMap109'
+		$begin 'FaceMap110'
+			Object=3034
+			Faces[6: 3035, 3037, 3038, 3039, 3036, 3040]
+		$end 'FaceMap110'
+		$begin 'FaceMap111'
+			Object=3062
+			Faces[6: 3063, 3065, 3066, 3067, 3064, 3068]
+		$end 'FaceMap111'
+		$begin 'FaceMap112'
+			Object=3090
+			Faces[6: 3091, 3093, 3094, 3095, 3092, 3096]
+		$end 'FaceMap112'
+		$begin 'FaceMap113'
+			Object=3119
+			Faces[6: 3120, 3122, 3123, 3124, 3121, 3125]
+		$end 'FaceMap113'
+		$begin 'FaceMap114'
+			Object=3147
+			Faces[6: 3148, 3150, 3151, 3152, 3149, 3153]
+		$end 'FaceMap114'
+		$begin 'FaceMap115'
+			Object=3175
+			Faces[6: 3176, 3178, 3179, 3180, 3177, 3181]
+		$end 'FaceMap115'
+		$begin 'FaceMap116'
+			Object=3203
+			Faces[6: 3204, 3206, 3207, 3208, 3205, 3209]
+		$end 'FaceMap116'
+		$begin 'FaceMap117'
+			Object=3231
+			Faces[6: 3232, 3234, 3235, 3236, 3233, 3237]
+		$end 'FaceMap117'
+		$begin 'FaceMap118'
+			Object=3259
+			Faces[6: 3260, 3262, 3263, 3264, 3261, 3265]
+		$end 'FaceMap118'
+		$begin 'FaceMap119'
+			Object=3287
+			Faces[6: 3288, 3290, 3291, 3292, 3289, 3293]
+		$end 'FaceMap119'
+		$begin 'FaceMap120'
+			Object=3315
+			Faces[6: 3316, 3318, 3319, 3320, 3317, 3321]
+		$end 'FaceMap120'
+		$begin 'FaceMap121'
+			Object=3343
+			Faces[6: 3344, 3346, 3347, 3348, 3345, 3349]
+		$end 'FaceMap121'
+		$begin 'FaceMap122'
+			Object=3371
+			Faces[6: 3372, 3374, 3375, 3376, 3373, 3377]
+		$end 'FaceMap122'
+		$begin 'FaceMap123'
+			Object=3399
+			Faces[6: 3400, 3402, 3403, 3404, 3401, 3405]
+		$end 'FaceMap123'
+		$begin 'FaceMap124'
+			Object=3427
+			Faces[6: 3428, 3430, 3431, 3432, 3429, 3433]
+		$end 'FaceMap124'
+		$begin 'FaceMap125'
+			Object=3455
+			Faces[6: 3456, 3458, 3459, 3460, 3457, 3461]
+		$end 'FaceMap125'
+		$begin 'FaceMap126'
+			Object=3484
+			Faces[6: 3485, 3487, 3488, 3489, 3486, 3490]
+		$end 'FaceMap126'
+		$begin 'FaceMap127'
+			Object=3512
+			Faces[6: 3513, 3515, 3516, 3517, 3514, 3518]
+		$end 'FaceMap127'
+		$begin 'FaceMap128'
+			Object=3540
+			Faces[6: 3541, 3543, 3544, 3545, 3542, 3546]
+		$end 'FaceMap128'
+		$begin 'FaceMap129'
+			Object=3568
+			Faces[6: 3569, 3571, 3572, 3573, 3570, 3574]
+		$end 'FaceMap129'
+		$begin 'FaceMap130'
+			Object=3596
+			Faces[6: 3597, 3599, 3600, 3601, 3598, 3602]
+		$end 'FaceMap130'
+		$begin 'FaceMap131'
+			Object=3624
+			Faces[6: 3625, 3627, 3628, 3629, 3626, 3630]
+		$end 'FaceMap131'
+		$begin 'FaceMap132'
+			Object=3652
+			Faces[6: 3653, 3655, 3656, 3657, 3654, 3658]
+		$end 'FaceMap132'
+		$begin 'FaceMap133'
+			Object=3680
+			Faces[6: 3681, 3683, 3684, 3685, 3682, 3686]
+		$end 'FaceMap133'
+		$begin 'FaceMap134'
+			Object=3708
+			Faces[6: 3709, 3711, 3712, 3713, 3710, 3714]
+		$end 'FaceMap134'
+		$begin 'FaceMap135'
+			Object=3736
+			Faces[6: 3737, 3739, 3740, 3741, 3738, 3742]
+		$end 'FaceMap135'
+		$begin 'FaceMap136'
+			Object=3764
+			Faces[6: 3765, 3767, 3768, 3769, 3766, 3770]
+		$end 'FaceMap136'
+		$begin 'FaceMap137'
+			Object=3792
+			Faces[6: 3793, 3795, 3796, 3797, 3794, 3798]
+		$end 'FaceMap137'
+		$begin 'FaceMap138'
+			Object=3820
+			Faces[6: 3821, 3823, 3824, 3825, 3822, 3826]
+		$end 'FaceMap138'
+		$begin 'FaceMap139'
+			Object=3849
+			Faces[6: 3850, 3852, 3853, 3854, 3851, 3855]
+		$end 'FaceMap139'
+		$begin 'FaceMap140'
+			Object=3877
+			Faces[6: 3878, 3880, 3881, 3882, 3879, 3883]
+		$end 'FaceMap140'
+		$begin 'FaceMap141'
+			Object=3905
+			Faces[6: 3906, 3908, 3909, 3910, 3907, 3911]
+		$end 'FaceMap141'
+		$begin 'FaceMap142'
+			Object=3933
+			Faces[6: 3934, 3936, 3937, 3938, 3935, 3939]
+		$end 'FaceMap142'
+		$begin 'FaceMap143'
+			Object=3961
+			Faces[6: 3962, 3964, 3965, 3966, 3963, 3967]
+		$end 'FaceMap143'
+		$begin 'FaceMap144'
+			Object=3989
+			Faces[6: 3990, 3992, 3993, 3994, 3991, 3995]
+		$end 'FaceMap144'
+		$begin 'FaceMap145'
+			Object=4017
+			Faces[6: 4018, 4020, 4021, 4022, 4019, 4023]
+		$end 'FaceMap145'
+		$begin 'FaceMap146'
+			Object=4045
+			Faces[6: 4046, 4048, 4049, 4050, 4047, 4051]
+		$end 'FaceMap146'
+		$begin 'FaceMap147'
+			Object=4073
+			Faces[6: 4074, 4076, 4077, 4078, 4075, 4079]
+		$end 'FaceMap147'
+		$begin 'FaceMap148'
+			Object=4101
+			Faces[6: 4102, 4104, 4105, 4106, 4103, 4107]
+		$end 'FaceMap148'
+		$begin 'FaceMap149'
+			Object=4129
+			Faces[6: 4130, 4132, 4133, 4134, 4131, 4135]
+		$end 'FaceMap149'
+		$begin 'FaceMap150'
+			Object=4157
+			Faces[6: 4158, 4160, 4161, 4162, 4159, 4163]
+		$end 'FaceMap150'
+		$begin 'FaceMap151'
+			Object=4185
+			Faces[6: 4186, 4188, 4189, 4190, 4187, 4191]
+		$end 'FaceMap151'
+		$begin 'FaceMap152'
+			Object=4214
+			Faces[6: 4215, 4217, 4218, 4219, 4216, 4220]
+		$end 'FaceMap152'
+		$begin 'FaceMap153'
+			Object=4242
+			Faces[6: 4243, 4245, 4246, 4247, 4244, 4248]
+		$end 'FaceMap153'
+		$begin 'FaceMap154'
+			Object=4270
+			Faces[6: 4271, 4273, 4274, 4275, 4272, 4276]
+		$end 'FaceMap154'
+		$begin 'FaceMap155'
+			Object=4298
+			Faces[6: 4299, 4301, 4302, 4303, 4300, 4304]
+		$end 'FaceMap155'
+		$begin 'FaceMap156'
+			Object=4326
+			Faces[6: 4327, 4329, 4330, 4331, 4328, 4332]
+		$end 'FaceMap156'
+		$begin 'FaceMap157'
+			Object=4354
+			Faces[6: 4355, 4357, 4358, 4359, 4356, 4360]
+		$end 'FaceMap157'
+		$begin 'FaceMap158'
+			Object=4382
+			Faces[6: 4383, 4385, 4386, 4387, 4384, 4388]
+		$end 'FaceMap158'
+		$begin 'FaceMap159'
+			Object=4410
+			Faces[6: 4411, 4413, 4414, 4415, 4412, 4416]
+		$end 'FaceMap159'
+		$begin 'FaceMap160'
+			Object=4438
+			Faces[6: 4439, 4441, 4442, 4443, 4440, 4444]
+		$end 'FaceMap160'
+		$begin 'FaceMap161'
+			Object=4466
+			Faces[6: 4467, 4469, 4470, 4471, 4468, 4472]
+		$end 'FaceMap161'
+		$begin 'FaceMap162'
+			Object=4494
+			Faces[6: 4495, 4497, 4498, 4499, 4496, 4500]
+		$end 'FaceMap162'
+		$begin 'FaceMap163'
+			Object=4522
+			Faces[6: 4523, 4525, 4526, 4527, 4524, 4528]
+		$end 'FaceMap163'
+		$begin 'FaceMap164'
+			Object=4550
+			Faces[6: 4551, 4553, 4554, 4555, 4552, 4556]
+		$end 'FaceMap164'
+		$begin 'FaceMap165'
+			Object=4579
+			Faces[6: 4580, 4582, 4583, 4584, 4581, 4585]
+		$end 'FaceMap165'
+		$begin 'FaceMap166'
+			Object=4607
+			Faces[6: 4608, 4610, 4611, 4612, 4609, 4613]
+		$end 'FaceMap166'
+		$begin 'FaceMap167'
+			Object=4635
+			Faces[6: 4636, 4638, 4639, 4640, 4637, 4641]
+		$end 'FaceMap167'
+		$begin 'FaceMap168'
+			Object=4663
+			Faces[6: 4664, 4666, 4667, 4668, 4665, 4669]
+		$end 'FaceMap168'
+		$begin 'FaceMap169'
+			Object=4691
+			Faces[6: 4692, 4694, 4695, 4696, 4693, 4697]
+		$end 'FaceMap169'
+		$begin 'FaceMap170'
+			Object=4719
+			Faces[6: 4720, 4722, 4723, 4724, 4721, 4725]
+		$end 'FaceMap170'
+		$begin 'FaceMap171'
+			Object=4747
+			Faces[6: 4748, 4750, 4751, 4752, 4749, 4753]
+		$end 'FaceMap171'
+		$begin 'FaceMap172'
+			Object=4775
+			Faces[6: 4776, 4778, 4779, 4780, 4777, 4781]
+		$end 'FaceMap172'
+		$begin 'FaceMap173'
+			Object=4803
+			Faces[6: 4804, 4806, 4807, 4808, 4805, 4809]
+		$end 'FaceMap173'
+		$begin 'FaceMap174'
+			Object=4831
+			Faces[6: 4832, 4834, 4835, 4836, 4833, 4837]
+		$end 'FaceMap174'
+		$begin 'FaceMap175'
+			Object=4859
+			Faces[6: 4860, 4862, 4863, 4864, 4861, 4865]
+		$end 'FaceMap175'
+		$begin 'FaceMap176'
+			Object=4887
+			Faces[6: 4888, 4890, 4891, 4892, 4889, 4893]
+		$end 'FaceMap176'
+		$begin 'FaceMap177'
+			Object=4915
+			Faces[6: 4916, 4918, 4919, 4920, 4917, 4921]
+		$end 'FaceMap177'
+		$begin 'FaceMap178'
+			Object=4944
+			Faces[6: 4945, 4947, 4948, 4949, 4946, 4950]
+		$end 'FaceMap178'
+		$begin 'FaceMap179'
+			Object=4972
+			Faces[6: 4973, 4975, 4976, 4977, 4974, 4978]
+		$end 'FaceMap179'
+		$begin 'FaceMap180'
+			Object=5000
+			Faces[6: 5001, 5003, 5004, 5005, 5002, 5006]
+		$end 'FaceMap180'
+		$begin 'FaceMap181'
+			Object=5028
+			Faces[6: 5029, 5031, 5032, 5033, 5030, 5034]
+		$end 'FaceMap181'
+		$begin 'FaceMap182'
+			Object=5056
+			Faces[6: 5057, 5059, 5060, 5061, 5058, 5062]
+		$end 'FaceMap182'
+		$begin 'FaceMap183'
+			Object=5084
+			Faces[6: 5085, 5087, 5088, 5089, 5086, 5090]
+		$end 'FaceMap183'
+		$begin 'FaceMap184'
+			Object=5112
+			Faces[6: 5113, 5115, 5116, 5117, 5114, 5118]
+		$end 'FaceMap184'
+		$begin 'FaceMap185'
+			Object=5140
+			Faces[6: 5141, 5143, 5144, 5145, 5142, 5146]
+		$end 'FaceMap185'
+		$begin 'FaceMap186'
+			Object=5168
+			Faces[6: 5169, 5171, 5172, 5173, 5170, 5174]
+		$end 'FaceMap186'
+		$begin 'FaceMap187'
+			Object=5196
+			Faces[6: 5197, 5199, 5200, 5201, 5198, 5202]
+		$end 'FaceMap187'
+		$begin 'FaceMap188'
+			Object=5224
+			Faces[6: 5225, 5227, 5228, 5229, 5226, 5230]
+		$end 'FaceMap188'
+		$begin 'FaceMap189'
+			Object=5252
+			Faces[6: 5253, 5255, 5256, 5257, 5254, 5258]
+		$end 'FaceMap189'
+		$begin 'FaceMap190'
+			Object=5280
+			Faces[6: 5281, 5283, 5284, 5285, 5282, 5286]
+		$end 'FaceMap190'
+		$begin 'FaceMap191'
+			Object=5309
+			Faces[6: 5310, 5312, 5313, 5314, 5311, 5315]
+		$end 'FaceMap191'
+		$begin 'FaceMap192'
+			Object=5337
+			Faces[6: 5338, 5340, 5341, 5342, 5339, 5343]
+		$end 'FaceMap192'
+		$begin 'FaceMap193'
+			Object=5365
+			Faces[6: 5366, 5368, 5369, 5370, 5367, 5371]
+		$end 'FaceMap193'
+		$begin 'FaceMap194'
+			Object=5393
+			Faces[6: 5394, 5396, 5397, 5398, 5395, 5399]
+		$end 'FaceMap194'
+		$begin 'FaceMap195'
+			Object=5421
+			Faces[6: 5422, 5424, 5425, 5426, 5423, 5427]
+		$end 'FaceMap195'
+		$begin 'FaceMap196'
+			Object=5449
+			Faces[6: 5450, 5452, 5453, 5454, 5451, 5455]
+		$end 'FaceMap196'
+		$begin 'FaceMap197'
+			Object=5477
+			Faces[6: 5478, 5480, 5481, 5482, 5479, 5483]
+		$end 'FaceMap197'
+		$begin 'FaceMap198'
+			Object=5505
+			Faces[6: 5506, 5508, 5509, 5510, 5507, 5511]
+		$end 'FaceMap198'
+		$begin 'FaceMap199'
+			Object=5533
+			Faces[6: 5534, 5536, 5537, 5538, 5535, 5539]
+		$end 'FaceMap199'
+		$begin 'FaceMap200'
+			Object=5561
+			Faces[6: 5562, 5564, 5565, 5566, 5563, 5567]
+		$end 'FaceMap200'
+		$begin 'FaceMap201'
+			Object=5589
+			Faces[6: 5590, 5592, 5593, 5594, 5591, 5595]
+		$end 'FaceMap201'
+		$begin 'FaceMap202'
+			Object=5617
+			Faces[6: 5618, 5620, 5621, 5622, 5619, 5623]
+		$end 'FaceMap202'
+		$begin 'FaceMap203'
+			Object=5645
+			Faces[6: 5646, 5648, 5649, 5650, 5647, 5651]
+		$end 'FaceMap203'
+	$end '3DFaceMapping'
+	$begin 'BcToEntityMapping'
+		Count=2
+		$begin 'BcMap1'
+			Bc='Flipchip_BGA1_die_source'
+			Objects[1: 62]
+		$end 'BcMap1'
+		$begin 'BcMap2'
+			Bc='Source1'
+			Objects[1: 102]
+		$end 'BcMap2'
+	$end 'BcToEntityMapping'
+	$begin 'MaterialMapping'
+		Count=2
+		$begin 'MatMap1'
+			MaterialType='Solid'
+			Objects[200: 102, 34, 130, 74, 170, 199, 227, 255, 283, 311, 339, 367, 395, 423, 451, 479, 507, 535, 564, 592, 620, 648, 676, 704, 732, 760, 788, 816, 844, 872, 900, 929, 957, 985, 1013, 1041, 1069, 1097, 1125, 1153, 1181, 1209, 1237, 1265, 1294, 1322, 1350, 1378, 1406, 1434, 1462, 1490, 1518, 1546, 1574, 1602, 1630, 1659, 1687, 1715, 1743, 1771, 1799, 1827, 1855, 1883, 1911, 1939, 1967, 1995, 2024, 2052, 2080, 2108, 2136, 2164, 2192, 2220, 2248, 2276, 2304, 2332, 2360, 2389, 2417, 2445, 2473, 2501, 2529, 2557, 2585, 2613, 2641, 2669, 2697, 2725, 2754, 2782, 2810, 2838, 2866, 2894, 2922, 2950, 2978, 3006, 3034, 3062, 3090, 3119, 3147, 3175, 3203, 3231, 3259, 3287, 3315, 3343, 3371, 3399, 3427, 3455, 3484, 3512, 3540, 3568, 3596, 3624, 3652, 3680, 3708, 3736, 3764, 3792, 3820, 3849, 3877, 3905, 3933, 3961, 3989, 4017, 4045, 4073, 4101, 4129, 4157, 4185, 4214, 4242, 4270, 4298, 4326, 4354, 4382, 4410, 4438, 4466, 4494, 4522, 4550, 4579, 4607, 4635, 4663, 4691, 4719, 4747, 4775, 4803, 4831, 4859, 4887, 4915, 4944, 4972, 5000, 5028, 5056, 5084, 5112, 5140, 5168, 5196, 5224, 5252, 5280, 5309, 5337, 5365, 5393, 5421, 5449, 5477, 5505, 5533, 5561, 5589, 5617, 5645]
+		$end 'MatMap1'
+		$begin 'MatMap2'
+			MaterialType='Fluid'
+			Objects[1: 6]
+		$end 'MatMap2'
+	$end 'MaterialMapping'
+	$begin 'SubRegions'
+	$end 'SubRegions'
+	PartNames(34, 'Flipchip_BGA1_die', 62, 'Flipchip_BGA1_die_source', 74, 'Flipchip_BGA1_die_underfill', 102, 'Flipchip_BGA1_substrate', 130, 'Flipchip_BGA1_via', 158, 'Flipchip_BGA1_trace1', 170, 'Flipchip_BGA1_ball', 199, 'Flipchip_BGA1_ball_1', 227, 'Flipchip_BGA1_ball_2', 255, 'Flipchip_BGA1_ball_3', 283, 'Flipchip_BGA1_ball_4', 311, 'Flipchip_BGA1_ball_5', 339, 'Flipchip_BGA1_ball_6', 367, 'Flipchip_BGA1_ball_7', 395, 'Flipchip_BGA1_ball_8', 423, 'Flipchip_BGA1_ball_9', 451, 'Flipchip_BGA1_ball_10', 479, 'Flipchip_BGA1_ball_11', 507, 'Flipchip_BGA1_ball_12', 535, 'Flipchip_BGA1_ball_13', 564, 'Flipchip_BGA1_ball_14', 592, 'Flipchip_BGA1_ball_15', 620, 'Flipchip_BGA1_ball_16', 648, 'Flipchip_BGA1_ball_17', 676, 'Flipchip_BGA1_ball_18', 704, 'Flipchip_BGA1_ball_19', 732, 'Flipchip_BGA1_ball_20', 760, 'Flipchip_BGA1_ball_21', 788, 'Flipchip_BGA1_ball_22', 816, 'Flipchip_BGA1_ball_23', 844, 'Flipchip_BGA1_ball_24', 872, 'Flipchip_BGA1_ball_25', 900, 'Flipchip_BGA1_ball_26', 929, 'Flipchip_BGA1_ball_1_1', 957, 'Flipchip_BGA1_ball_1_2', 985, 'Flipchip_BGA1_ball_1_3', 1013, 'Flipchip_BGA1_ball_1_4', 1041, 'Flipchip_BGA1_ball_1_5', 1069, 'Flipchip_BGA1_ball_1_6', 1097, 'Flipchip_BGA1_ball_1_7', 1125, 'Flipchip_BGA1_ball_1_8', 1153, 'Flipchip_BGA1_ball_1_9', 1181, 'Flipchip_BGA1_ball_1_10', 1209, 'Flipchip_BGA1_ball_1_11', 1237, 'Flipchip_BGA1_ball_1_12', 1265, 'Flipchip_BGA1_ball_1_13', 1294, 'Flipchip_BGA1_ball_2_1', 1322, 'Flipchip_BGA1_ball_2_2', 1350, 'Flipchip_BGA1_ball_2_3', 1378, 'Flipchip_BGA1_ball_2_4', 1406, 'Flipchip_BGA1_ball_2_5', 1434, 'Flipchip_BGA1_ball_2_6', 1462, 'Flipchip_BGA1_ball_2_7', 1490, 'Flipchip_BGA1_ball_2_8', 1518, 'Flipchip_BGA1_ball_2_9', 1546, 'Flipchip_BGA1_ball_2_10', 1574, 'Flipchip_BGA1_ball_2_11', 1602, 'Flipchip_BGA1_ball_2_12', 1630, 'Flipchip_BGA1_ball_2_13', 1659, 'Flipchip_BGA1_ball_3_1', 1687, 'Flipchip_BGA1_ball_3_2', 1715, 'Flipchip_BGA1_ball_3_3', 1743, 'Flipchip_BGA1_ball_3_4', 1771, 'Flipchip_BGA1_ball_3_5', 1799, 'Flipchip_BGA1_ball_3_6', 1827, 'Flipchip_BGA1_ball_3_7', 1855, 'Flipchip_BGA1_ball_3_8', 1883, 'Flipchip_BGA1_ball_3_9', 1911, 'Flipchip_BGA1_ball_3_10', 1939, 'Flipchip_BGA1_ball_3_11', 1967, 'Flipchip_BGA1_ball_3_12', 1995, 'Flipchip_BGA1_ball_3_13', 2024, 'Flipchip_BGA1_ball_4_1', 2052, 'Flipchip_BGA1_ball_4_2', 2080, 'Flipchip_BGA1_ball_4_3', 2108, 'Flipchip_BGA1_ball_4_4', 2136, 'Flipchip_BGA1_ball_4_5', 2164, 'Flipchip_BGA1_ball_4_6', 2192, 'Flipchip_BGA1_ball_4_7', 2220, 'Flipchip_BGA1_ball_4_8', 2248, 'Flipchip_BGA1_ball_4_9', 2276, 'Flipchip_BGA1_ball_4_10', 2304, 'Flipchip_BGA1_ball_4_11', 2332, 'Flipchip_BGA1_ball_4_12', 2360, 'Flipchip_BGA1_ball_4_13', 2389, 'Flipchip_BGA1_ball_5_1', 2417, 'Flipchip_BGA1_ball_5_2', 2445, 'Flipchip_BGA1_ball_5_3', 2473, 'Flipchip_BGA1_ball_5_4', 2501, 'Flipchip_BGA1_ball_5_5', 2529, 'Flipchip_BGA1_ball_5_6', 2557, 'Flipchip_BGA1_ball_5_7', 2585, 'Flipchip_BGA1_ball_5_8', 2613, 'Flipchip_BGA1_ball_5_9', 2641, 'Flipchip_BGA1_ball_5_10', 2669, 'Flipchip_BGA1_ball_5_11', 2697, 'Flipchip_BGA1_ball_5_12', 2725, 'Flipchip_BGA1_ball_5_13', 2754, 'Flipchip_BGA1_ball_6_1', 2782, 'Flipchip_BGA1_ball_6_2', 2810, 'Flipchip_BGA1_ball_6_3', 2838, 'Flipchip_BGA1_ball_6_4', 2866, 'Flipchip_BGA1_ball_6_5', 2894, 'Flipchip_BGA1_ball_6_6', 2922, 'Flipchip_BGA1_ball_6_7', 2950, 'Flipchip_BGA1_ball_6_8', 2978, 'Flipchip_BGA1_ball_6_9', 3006, 'Flipchip_BGA1_ball_6_10', 3034, 'Flipchip_BGA1_ball_6_11', 3062, 'Flipchip_BGA1_ball_6_12', 3090, 'Flipchip_BGA1_ball_6_13', 3119, 'Flipchip_BGA1_ball_7_1', 3147, 'Flipchip_BGA1_ball_7_2', 3175, 'Flipchip_BGA1_ball_7_3', 3203, 'Flipchip_BGA1_ball_7_4', 3231, 'Flipchip_BGA1_ball_7_5', 3259, 'Flipchip_BGA1_ball_7_6', 3287, 'Flipchip_BGA1_ball_7_7', 3315, 'Flipchip_BGA1_ball_7_8', 3343, 'Flipchip_BGA1_ball_7_9', 3371, 'Flipchip_BGA1_ball_7_10', 3399, 'Flipchip_BGA1_ball_7_11', 3427, 'Flipchip_BGA1_ball_7_12', 3455, 'Flipchip_BGA1_ball_7_13', 3484, 'Flipchip_BGA1_ball_8_1', 3512, 'Flipchip_BGA1_ball_8_2', 3540, 'Flipchip_BGA1_ball_8_3', 3568, 'Flipchip_BGA1_ball_8_4', 3596, 'Flipchip_BGA1_ball_8_5', 3624, 'Flipchip_BGA1_ball_8_6', 3652, 'Flipchip_BGA1_ball_8_7', 3680, 'Flipchip_BGA1_ball_8_8', 3708, 'Flipchip_BGA1_ball_8_9', 3736, 'Flipchip_BGA1_ball_8_10', 3764, 'Flipchip_BGA1_ball_8_11', 3792, 'Flipchip_BGA1_ball_8_12', 3820, 'Flipchip_BGA1_ball_8_13', 3849, 'Flipchip_BGA1_ball_9_1', 3877, 'Flipchip_BGA1_ball_9_2', 3905, 'Flipchip_BGA1_ball_9_3', 3933, 'Flipchip_BGA1_ball_9_4', 3961, 'Flipchip_BGA1_ball_9_5', 3989, 'Flipchip_BGA1_ball_9_6', 4017, 'Flipchip_BGA1_ball_9_7', 4045, 'Flipchip_BGA1_ball_9_8', 4073, 'Flipchip_BGA1_ball_9_9', 4101, 'Flipchip_BGA1_ball_9_10', 4129, 'Flipchip_BGA1_ball_9_11', 4157, 'Flipchip_BGA1_ball_9_12', 4185, 'Flipchip_BGA1_ball_9_13', 4214, 'Flipchip_BGA1_ball_10_1', 4242, 'Flipchip_BGA1_ball_10_2', 4270, 'Flipchip_BGA1_ball_10_3', 4298, 'Flipchip_BGA1_ball_10_4', 4326, 'Flipchip_BGA1_ball_10_5', 4354, 'Flipchip_BGA1_ball_10_6', 4382, 'Flipchip_BGA1_ball_10_7', 4410, 'Flipchip_BGA1_ball_10_8', 4438, 'Flipchip_BGA1_ball_10_9', 4466, 'Flipchip_BGA1_ball_10_10', 4494, 'Flipchip_BGA1_ball_10_11', 4522, 'Flipchip_BGA1_ball_10_12', 4550, 'Flipchip_BGA1_ball_10_13', 4579, 'Flipchip_BGA1_ball_11_1', 4607, 'Flipchip_BGA1_ball_11_2', 4635, 'Flipchip_BGA1_ball_11_3', 4663, 'Flipchip_BGA1_ball_11_4', 4691, 'Flipchip_BGA1_ball_11_5', 4719, 'Flipchip_BGA1_ball_11_6', 4747, 'Flipchip_BGA1_ball_11_7', 4775, 'Flipchip_BGA1_ball_11_8', 4803, 'Flipchip_BGA1_ball_11_9', 4831, 'Flipchip_BGA1_ball_11_10', 4859, 'Flipchip_BGA1_ball_11_11', 4887, 'Flipchip_BGA1_ball_11_12', 4915, 'Flipchip_BGA1_ball_11_13', 4944, 'Flipchip_BGA1_ball_12_1', 4972, 'Flipchip_BGA1_ball_12_2', 5000, 'Flipchip_BGA1_ball_12_3', 5028, 'Flipchip_BGA1_ball_12_4', 5056, 'Flipchip_BGA1_ball_12_5', 5084, 'Flipchip_BGA1_ball_12_6', 5112, 'Flipchip_BGA1_ball_12_7', 5140, 'Flipchip_BGA1_ball_12_8', 5168, 'Flipchip_BGA1_ball_12_9', 5196, 'Flipchip_BGA1_ball_12_10', 5224, 'Flipchip_BGA1_ball_12_11', 5252, 'Flipchip_BGA1_ball_12_12', 5280, 'Flipchip_BGA1_ball_12_13', 5309, 'Flipchip_BGA1_ball_13_1', 5337, 'Flipchip_BGA1_ball_13_2', 5365, 'Flipchip_BGA1_ball_13_3', 5393, 'Flipchip_BGA1_ball_13_4', 5421, 'Flipchip_BGA1_ball_13_5', 5449, 'Flipchip_BGA1_ball_13_6', 5477, 'Flipchip_BGA1_ball_13_7', 5505, 'Flipchip_BGA1_ball_13_8', 5533, 'Flipchip_BGA1_ball_13_9', 5561, 'Flipchip_BGA1_ball_13_10', 5589, 'Flipchip_BGA1_ball_13_11', 5617, 'Flipchip_BGA1_ball_13_12', 5645, 'Flipchip_BGA1_ball_13_13')
+	OverlappingMRFaces[0:]
+$end 'MeshRegion'
