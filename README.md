@@ -139,4 +139,13 @@ Major difference between OSAT and ATMP is that OSAT does not produce wafers they
 ![11](./Packaging/11.png)
 
 ## 2.4 Flip Chip Assembly: Bump Formation and Underfill
+1. In flip bonding, we flip the chip, and a solder ball is made onto it.
+2. This geometry ensures faster signal speed as the signal does not need to propagate for long interconnects.
+3. Flux is added onto this geometry and heated for the solder to get attached correctly.
+4. Excess flux is cleaned off.
+5. Underfill Dispensing is done to keep everything in place, and then Curing is done(Heating).
+6. After all this process molding is done for encapsulation of the whole geometry.
+7. Marking is done for traceability.
+8. Ball mounting is done on the Substrate.
+9. After ball mounting and reflow, we get a Flip chip bonded Package.
 ![12](./Packaging/12.png)
