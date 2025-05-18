@@ -95,7 +95,9 @@ These packages are made for a larger number of dies on the same substrate, which
 4. **2.5D**: Instead of Organic, a silicon interposer for high-speed interconnects between dies.
 ![5](./Packaging/5.png)
 
-
-
+## 1.4 Interposers, Redistribution layer, and 3D Packaging Approaches
+1. Redistribution Layers (RDL) is a metal layer added on top of a die or wafer to reroute the I/O pads to new locations. Connects different dies on the substrate, as without RDL, it takes longer for the dies to communicate with each other.
+2. Interposer: Acts as an intermediate routing interface between die and the substrate.
+![6](./Packaging/6.png)
 
 
