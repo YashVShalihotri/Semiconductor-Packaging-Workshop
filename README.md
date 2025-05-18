@@ -40,4 +40,23 @@ Packaging helps in the following ways-
 2. Electrical connections to the outer world.
 3. Heat dissipation
    
-![Picture1](./Packaging/image1.png)
+![1](./Packaging/1.png)
+
+**Package and Testing Industry**
+Companies are working in various sectors of the semiconductor industry.
+1. **Fabless**: That only designs the chip.
+2. **Foundry**: That takes the design and fabricates dies on the wafer, but does not design the chip
+3. **IDM(Integrated Device Manufacturer)**: That does both designing and fabrication of the chip
+4. **OSAT(Outsource Semiconductor Assembly and Test)**: That takes the dies from the wafer and packages them; they do not design or fabricate chips. 
+![2](./Packaging/2.png)
+
+## 1.2 Understanding Package Requirements and Foundational Package Types
+**How to choose a package**
+Based on the listed requirements, packages are chosen for the packaging of the die.
+![3](./Packaging/3.png)
+
+
+
+
+
+
