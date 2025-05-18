@@ -41,3 +41,12 @@ Packaging helps in the following ways-
 3. Heat dissipation
    
 ![Picture1](./Packaging/image1.png)
+
+**Package and Testing Industry**
+Companies are working in various sectors of the semiconductor industry.
+1. **Fabless**: That only designs the chip.
+2. **Foundry**: That takes the design and fabricates dies on the wafer, but does not design the chip
+3. **IDM(Integrated Device Manufacturer)**: That does both designing and fabrication of the chip
+4. **OSAT(Outsource Semiconductor Assembly and Test)**: That takes the dies from the wafer and packages them; they do not design or fabricate chips. 
+![Picture2](./Package/image2.png)
+
