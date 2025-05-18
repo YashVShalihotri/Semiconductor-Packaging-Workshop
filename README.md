@@ -160,3 +160,15 @@ Fan-Out WLP (FOWLP) – Interconnects extend beyond the dies for more I/Os.
 ### RDL Preparation
 1. RDL is combination of dielectric and metal which is patterned again and again for getting the desired number of layers for interconnections.
 ![13](./Packaging/13.png)
+
+# 3 Labs: Thermal Simulation of Semiconductor Packages with ANSYS
+
+## 3.1 Introduction And Getting Started With ANSYS Electronics Desktop
+In this, we will be using the  Icepack of the Ansys Electronics Desktop Software to generate the temperature graph for the Flip chip BGA package.
+ 1. Insert the Icepack Design after Launching the Ansys Software.
+ 2. Go to: Icepak > Toolkit > Geometry > Packages > Flipchip_BGA to get the Flip-chip BGA package.
+ 3. Set parameters:
+        `xLength:` 15 mm
+        `yLength:` 15 mm
+        `Package Thickness:` 3 mm
+
