@@ -30,3 +30,8 @@ Notes summarized for the Semiconductor workshop attended between 9th and 18th Ma
     	5. Applying Mold Compound and Finalizing the Package Model
 ## 6.	Conclusion: Semiconductor Packaging
 
+# Packaging Evolution: From Basics to 3D Integration
+
+## 1. Packaging Evolution: From Basics to 3D Integration
+### 1.1 Introduction to Semiconductor Packaging and Industry Overview
+Semiconductor Packaging is needed to package the dies that come out of the wafer to be used in the real world.Packages are necessary to protect them from the environment and connects them to real world.
