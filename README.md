@@ -133,4 +133,30 @@ Major difference between OSAT and ATMP is that OSAT does not produce wafers they
 1. Die attach film is placed onto the substrate. This material is usually epoxy resin used as a glue to stick the die onto the substrate.
 2. Then the die is placed onto the die attach film.
 3. After placing it on the substrate, we cure it, meaning we heat it or use UV to set the material correctly onto the substrate and for the die to attach to it correctly.
+4. **Wire bonds** are made using a gold ball, which is made using the Ultrasound or normal Force technique. After sticking the gold ball onto the die pad, it is stretched to the substrate pad to make a crescent bond.
+5. For **Molding**, we flow the resin from right to left so it encapsulates the substrate along with wire bonds, die.
+6. Packages are marked for tracability and then cut (**Singulation**).
 ![11](./Packaging/11.png)
+
+## 2.4 Flip Chip Assembly: Bump Formation and Underfill
+1. In flip bonding, we flip the chip, and a solder ball is made onto it.
+2. This geometry ensures faster signal speed as the signal does not need to propagate for long interconnects.
+3. Flux is added onto this geometry and heated for the solder to get attached correctly.
+4. Excess flux is cleaned off.
+5. Underfill Dispensing is done to keep everything in place, and then Curing is done(Heating).
+6. After all this process molding is done for encapsulation of the whole geometry.
+7. Marking is done for traceability.
+8. Ball mounting is done on the Substrate.
+9. After ball mounting and reflow, we get a Flip chip bonded Package.
+![12](./Packaging/12.png)
+
+## 2.5 Wafer Level Packaging And Conclusion
+Wafer-Level Packaging is a technique where the whole packaging process is done at the wafer level.
+This helps in reducing the size of the package, faster speed, and reducing Form Factor.
+Good dies are picked from the wafer and placed for the reconstitution process, molded to get a reconstituted wafer after carrier release.
+### Types of Wafer-Level Packaging
+Fan-In WLP – Interconnects remain within the die footprint
+Fan-Out WLP (FOWLP) – Interconnects extend beyond the dies for more I/Os.
+### RDL Preparation
+1. RDL is combination of dielectric and metal which is patterned again and again for getting the desired number of layers for interconnections.
+![13](./Packaging/13.png)
