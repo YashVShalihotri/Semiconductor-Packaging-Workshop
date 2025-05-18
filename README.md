@@ -168,8 +168,19 @@ In this, we will be using the  Icepack of the Ansys Electronics Desktop Software
  1. Insert the Icepack Design after Launching the Ansys Software.
  2. Go to: Icepak > Toolkit > Geometry > Packages > Flipchip_BGA to get the Flip-chip BGA package.
  3. Set parameters:
+         <br>
          `xLength:` 15 mm <br>
          `yLength:` 15 mm <br>
-         `Package Thickness:` 3 mm <br>
-    as we will be working on this size
+         `Package Thickness:` 3 mm. As we will be working on this size
+ 4. Navigate to: `Project Manager > Thermal` and Set Power to `1W` and apply
+ 5. Select `Flipchip-BGA1_substrate` from Solids and Right-click: Assign Thermal > Source to assign it. Set the condition to Ambient Temperature.
+ 6. Assign temperature monitor points to: Substrate, Die, and Underfill, as these three will generate the temperature gradient for the package.
+ 7. Go to: Mesh > Generate Mesh
+ 8. Click Validate from the toolbar
+ 9. Click Analyze All
+<br>Go to: Plot Field > Temperature and Configure plot settings:<br>
+`Enable: Specify Name, Folder, Plot Surface Only`<br>
+`Enable: Gaussian Surface Smoothing`
+
+
 
