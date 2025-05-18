@@ -107,4 +107,10 @@ Different packages have different advantages and disadvantages, and uses, as can
 
 # 2 From Wafer to Package: Assembly and Manufacturing Essentials
 ## 2.1 Setting the Stage: Supply Chain and Facilities
+The flowchart for a packaged chip coming to market goes like:
 ![8](./Packaging/8.png)
+1. Design House: EDA tools are used to create a GDSII design. This design goes to the foundry.
+2. Wafer Fabrication: The design wafer is fabricated. This fabricated wafer goes for packaging and testing.
+3. Package Assembly and Test: The wafer is diced and packaged, and tested.
+4. Board Assembly and Test: Different packages are assembled on the board and tested.
+5. Product Assembly and Test: The Final product is created, packaged, and tested.
