@@ -66,36 +66,38 @@ Broadly speaking, there are two types of mounting technology on the System board
 ## Anatomy of Package
 ### Lead Frame-based packages
 A leadframe is a thin sheet of metal, typically copper or a copper alloy, that creates a die pad and leads for the outer world connection.
-1. Die Pad: Area where the silicon die is mounted.
-2. Leads: Serve as electrical connections between the die and the external PCB.
-Leadframe-type packages have
+1. **Die Pad**: Area where the silicon die is mounted.
+2. **Leads**: Serve as electrical connections between the die and the external PCB.
+### Leadframe-type packages have
 1. **Silicon die**
 2. **Die attach** material that sticks the die onto the substrate.
 3. **Wire bonds** that connect the die pads to leads for outerworld connection.
 4. **Encapsulation** that surrounds all these components for safety, made using epoxy resin.
 5. **Leads** the metal that extends out of this geometry.
 ### Common Lead-frame Package
-**DIP (Dual In-line Package)** has pins that go into the PCB on both sides of its packaging, which is rectangular.
-**QFP (Quad Flat Package)** Four-sided surface-mount package with fine-pitch leads on all sides.
-**QFN (Quad Flat No-lead)** Exposed pad package without leads; pads are on the bottom for better thermal and electrical performance.
-**DFN (Dual Flat No-lead)** Like QFN but with pads only on two sides. Very compact.
+1. **DIP (Dual In-line Package)** has pins that go into the PCB on both sides of its packaging, which is rectangular.
+2. **QFP (Quad Flat Package)** Four-sided surface-mount package with fine-pitch leads on all sides.
+3. **QFN (Quad Flat No-lead)** Exposed pad package without leads; pads are on the bottom for better thermal and electrical performance.
+4. **DFN (Dual Flat No-lead)** Like QFN but with pads only on two sides. Very compact.
 
 ### Laminate-based Package
 A laminate-based package has a multi-layer organic substrate rather than a metal leadframe.
 ### Common Laminate-Based Package Types
-**Wire Bond PBGA (Plastic Ball Grid Array)** Die is connected via wirebonds to a laminated substrate with solder balls for board attachment.
-**Flip Chip PBGA** Die is flipped and directly bonded to the substrate using solder bumps.
-**LGA (Land Grid Array)** flat contacts for direct connection, no solder balls are used.
+1. **Wire Bond PBGA (Plastic Ball Grid Array)** Die is connected via wirebonds to a laminated substrate with solder balls for board attachment.
+2. **Flip Chip PBGA** Die is flipped and directly bonded to the substrate using solder bumps.
+3. **LGA (Land Grid Array)** flat contacts for direct connection; no solder balls are used.
 
 ### Advanced package substrates
 These packages are made for a larger number of dies on the same substrate, which gives high I/O pins and has lots of interconnection layers.
-**2D**: Multiple dies placed side by side on a single substrate (FCBGA). Since there is no redistribution layer in this, the dies have a  longer path between them.
-**2.1D**: Similar to 2D but includes RDL (Redistribution Layer) to improve routing and integration.
-**2.3D**: Uses organic interposer to connect dies.
-**2.5D**: Instead of Organic, a silicon interposer for high-speed interconnects between dies.
+1. **2D**: Multiple dies placed side by side on a single substrate (FCBGA). Since there is no redistribution layer in this, the dies have a  longer path between them.
+2. **2.1D**: Similar to 2D but includes RDL (Redistribution Layer) to improve routing and integration.
+3. **2.3D**: Uses organic interposer to connect dies.
+4. **2.5D**: Instead of Organic, a silicon interposer for high-speed interconnects between dies.
 ![5](./Packaging/5.png)
 
-
-
+## 1.4 Interposers, Redistribution layer, and 3D Packaging Approaches
+1. Redistribution Layers (RDL) is a metal layer added on top of a die or wafer to reroute the I/O pads to new locations. Connects different dies on the substrate, as without RDL, it takes longer for the dies to communicate with each other.
+2. Interposer: Acts as an intermediate routing interface between die and the substrate.
+![6](./Packaging/6.png)
 
 
