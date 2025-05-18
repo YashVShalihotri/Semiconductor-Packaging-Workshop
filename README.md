@@ -64,9 +64,21 @@ Broadly speaking, there are two types of mounting technology on the System board
 
 ## 1.3 Evolving Package Architectures from Single-chip to Multi-chip modules
 ## Anatomy of Package
-A typical package consists of 
-1. Silicon die
-2.
+**Lead Frame based packages**
+A leadframe is a thin sheet of metal, typically copper or a copper alloy, that creates a die pad and leads for the outer world connection.
+1. Die Pad: Area where the silicon die is mounted.
+2. Leads: Serve as electrical connections between the die and the external PCB. <br>
+Leadframe-type packages have
+1. **Silicon die**
+2. ***Die attach** material that sticks the die onto the substrate.
+3. **Wire bonds** that connect the die pads to leads for outerworld connection.
+4. **Encapsulation** that surrounds all these components for safety, made using epoxy resin.
+5. **Leads** the metal that extends out of this geometry.
+   
+
+
+
+   
 
 
 
