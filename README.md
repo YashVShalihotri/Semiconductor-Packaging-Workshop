@@ -116,4 +116,6 @@ The flowchart for a packaged chip coming to market goes like:
 5. Product Assembly and Test: The Final product is created, packaged, and tested.
 ### Introduction of a Package Manufacturing Unit
 ![9](./Packaging/9.png)
-Major difference between OSAT AND ATMP is that OSAT does not produce wafers they take orders from different foundries and dice and package the chips.
+Major difference between OSAT and ATMP is that OSAT does not produce wafers they take orders from different foundries and dice and package the chips.
+
+## 2.2 Wafer pre-preparation: Grinding and Dicing
