@@ -105,4 +105,5 @@ Nomenclature for the packages.
 Different packages have different advantages and disadvantages, and uses, as can be seen from the image.
 ![7](./Packaging/7.png)
 
-
+# 2 From Wafer to Package: Assembly and Manufacturing Essentials
+## 2.1 Setting the Stage: Supply Chain and Facilities
