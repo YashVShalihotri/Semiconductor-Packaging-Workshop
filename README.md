@@ -31,6 +31,13 @@ Notes summarized for the Semiconductor workshop attended between 9th and 18th Ma
 ## 6.	Conclusion: Semiconductor Packaging
 
 
-## 1. Packaging Evolution: From Basics to 3D Integration
-### 1.1 Introduction to Semiconductor Packaging and Industry Overview
-Semiconductor Packaging is needed to package the dies that come out of the wafer to be used in the real world.Packages are necessary to protect them from the environment and connects them to real world.
+# 1. Packaging Evolution: From Basics to 3D Integration
+## 1.1 Introduction to Semiconductor Packaging and Industry Overview
+Semiconductor Packaging is needed to package the dies that come out of the wafer in a controlled environment of a clean room to be used in the real world.
+Packaging is necessary to protect them from the environment and connect them to the real world.
+Packaging helps in the following ways-
+1. Protect the die from the environment and give it mechanical support (moisture, physical damage)
+2. Electrical connections to the outer world.
+3. Heat dissipation
+   
+
