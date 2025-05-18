@@ -119,10 +119,18 @@ The flowchart for a packaged chip coming to market goes like:
 Major difference between OSAT and ATMP is that OSAT does not produce wafers they take orders from different foundries and dice and package the chips.
 
 ## 2.2 Wafer pre-preparation: Grinding and Dicing
-### Acitvites inside Cleanroom
+### Activities inside the Cleanroom
 1. In a clean room facility of ISO Class 7, wafers are prepared.
 2. These wafers are placed carefully in a carrier, which is then sent for inspection.
 3. The top surface where the dies are is taped in a process called Wafer front tape lamination.
 4. Since the wafers have dies on the front side only the backside is used just for support and it is hence grinded or cut off from the wafers.
-5. After grinding, the backside of the wafer is taped and placed on the metal plate .
+5. After grinding, the backside of the wafer is taped and placed on the metal plate.
+6. Wafer is diced accordingly, where the dies need to be cut.
+7. Dies are ready to be packaged.
 ![10](./Packaging/10.png)
+
+## 2.3 Wire Bond Packaging: Die attach to Molding
+1. Die attach film is placed onto the substrate. This material is usually epoxy resin used as a glue to stick the die onto the substrate.
+2. Then the die is placed onto the die attach film.
+3. After placing it on the substrate, we cure it, meaning we heat it or use UV to set the material correctly onto the substrate and for the die to attach to it correctly.
+![11](./Packaging/11.png)
