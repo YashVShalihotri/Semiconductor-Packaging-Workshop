@@ -133,4 +133,10 @@ Major difference between OSAT and ATMP is that OSAT does not produce wafers they
 1. Die attach film is placed onto the substrate. This material is usually epoxy resin used as a glue to stick the die onto the substrate.
 2. Then the die is placed onto the die attach film.
 3. After placing it on the substrate, we cure it, meaning we heat it or use UV to set the material correctly onto the substrate and for the die to attach to it correctly.
+4. **Wire bonds** are made using a gold ball, which is made using the Ultrasound or normal Force technique. After sticking the gold ball onto the die pad, it is stretched to the substrate pad to make a crescent bond.
+5. For **Molding**, we flow the resin from right to left so it encapsulates the substrate along with wire bonds, die.
+6. Packages are marked for tracability and then cut (**Singulation**).
 ![11](./Packaging/11.png)
+
+## 2.4 Flip Chip Assembly: Bump Formation and Underfill
+![12](./Packaging/12.png)
