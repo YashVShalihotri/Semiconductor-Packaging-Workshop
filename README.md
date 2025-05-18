@@ -114,3 +114,5 @@ The flowchart for a packaged chip coming to market goes like:
 3. Package Assembly and Test: The wafer is diced and packaged, and tested.
 4. Board Assembly and Test: Different packages are assembled on the board and tested.
 5. Product Assembly and Test: The Final product is created, packaged, and tested.
+### Introduction of a Package Manufacturing Unit
+![9](./Packaging/9.png)
