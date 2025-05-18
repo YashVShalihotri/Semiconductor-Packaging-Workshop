@@ -187,4 +187,18 @@ In this, we will be using the  Icepack of the Ansys Electronics Desktop Software
 ## 3.5 Viewing Results and Exploring Other Package Types.
 ![14](./Packaging/14.png)
 
+# 4 Ensuring Package Reliability: Testing and Performance Validation
+![15](./Packaging/15.png)
+This section explains the tests that packages go through.
+## 4.1 Introduction to Package Testing and Electrical Functionality Checks
+1. These testing areas do not require a clean room facility of high grade and can be done in a controlled place without a clean room facility.
+2. After checking good dies from the wafer using wafer probe technique, we want to test the packages for their electrical reliability.
+3. These packages undergo various tests for their reliability and long life.
+![16](./Packaging/16.png)
+4. AOST (Assembly open and short test): This tells if the connections are proper or not, if there is any open or short circuit in the packages.
+5. Burn In Test: Here thermal and voltages are applied for checking early life reliability for the packages.
+6. Final Test: Cold and Hot Test for validating functional, parametric operation across temperatures.It is a temperature corner test for verifying that pthe ackage must work for this temperature range.
+![17](./Packaging/17.png)
+
+
 
