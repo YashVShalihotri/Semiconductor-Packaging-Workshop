@@ -68,8 +68,7 @@ Broadly speaking, there are two types of mounting technology on the System board
 A leadframe is a thin sheet of metal, typically copper or a copper alloy, that creates a die pad and leads for the outer world connection.
 1. **Die Pad**: Area where the silicon die is mounted.
 2. **Leads**: Serve as electrical connections between the die and the external PCB.
-<br>
-Leadframe-type packages have
+### Leadframe-type packages have
 1. **Silicon die**
 2. **Die attach** material that sticks the die onto the substrate.
 3. **Wire bonds** that connect the die pads to leads for outerworld connection.
