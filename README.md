@@ -1,4 +1,4 @@
-# Semiconductor Packaging workshop
+![Screenshot (61)](https://github.com/user-attachments/assets/3dfdfc0e-4d58-43ed-a19d-f10b9c822496)# Semiconductor Packaging workshop
 Notes summarized for the Semiconductor workshop attended between 9th and 18th May 2025
 
 ## 1.	Packaging Evolution: From Basics to 3D Integration
@@ -192,13 +192,24 @@ In this, we will be using the  Icepack of the Ansys Electronics Desktop Software
 This section explains the tests that packages go through.
 ## 4.1 Introduction to Package Testing and Electrical Functionality Checks
 1. These testing areas do not require a clean room facility of high grade and can be done in a controlled place without a clean room facility.
-2. After checking good dies from the wafer using wafer probe technique, we want to test the packages for their electrical reliability.
+2. After checking good dies from the wafer using the wafer probe technique, we want to test the packages for their electrical reliability.
 3. These packages undergo various tests for their reliability and long life.
 ![16](./Packaging/16.png)
 4. AOST (Assembly open and short test): This tells if the connections are proper or not, if there is any open or short circuit in the packages.
 5. Burn In Test: Here thermal and voltages are applied for checking early life reliability for the packages.
-6. Final Test: Cold and Hot Test for validating functional, parametric operation across temperatures.It is a temperature corner test for verifying that pthe ackage must work for this temperature range.
+6. Final Test: Cold and Hot Test for validating functional, parametric operation across temperatures. It is a temperature corner test for verifying that the package must work for this temperature range.
 ![17](./Packaging/17.png)
-
+## 4.2 Reliability and Performance Testing of Semiconductor Packages
+### Burn In Test
+1. We check for burn-in tests to find out the infant mortality rate of the die.
+2. We optimize the Useful life as it is the point where we use the packages.
+3. The packages are loaded onto the burn-in system for voltage and thermal stress application.
+4. This test helps in identifying electromigration, metallization, and dielectric failures.
+![18](./Packaging/18.png)
+### Final Test 
+5. Packages are tested at elevated temperature and cold temperature for their performance.
+![19](./Packaging/19.png)
+### Summary
+![20](./Packaging/20.png)
 
 
