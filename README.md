@@ -168,7 +168,7 @@ In this, we will be using the  Icepack of the Ansys Electronics Desktop Software
  1. Insert the Icepack Design after Launching the Ansys Software.
  2. Go to: Icepak > Toolkit > Geometry > Packages > Flipchip_BGA to get the Flip-chip BGA package.
  3. Set parameters:
-        `xLength:` 15 mm
-        `yLength:` 15 mm
-        `Package Thickness:` 3 mm
+        - `xLength:` 15 mm
+        - `yLength:` 15 mm
+        - `Package Thickness:` 3 mm
 
